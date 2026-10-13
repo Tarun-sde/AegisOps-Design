@@ -1,0 +1,31 @@
+
+> heron-architectural-showcase@1.0.0 test
+> playwright test
+
+
+Running 18 tests using 2 workers
+
+(node:502375) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+(node:502374) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+  ✓   2 tests/experience.spec.ts:4:5 › selection math handles reversed drags, edge overlap and letterboxing (14ms)
+  ✓   3 tests/experience.spec.ts:44:11 › site experience › /heron-dashboard fits 1440×900 without runtime errors (1.8s)
+  ✓   1 tests/experience.spec.ts:44:11 › site experience › / fits 1440×900 without runtime errors (1.8s)
+  ✓   4 tests/experience.spec.ts:44:11 › site experience › / fits 1920×1080 without runtime errors (1.2s)
+  ✓   5 tests/experience.spec.ts:44:11 › site experience › /heron-dashboard fits 1920×1080 without runtime errors (1.3s)
+  ✓   6 tests/experience.spec.ts:44:11 › site experience › / fits 390×844 without runtime errors (1.0s)
+  ✓   7 tests/experience.spec.ts:44:11 › site experience › /heron-dashboard fits 390×844 without runtime errors (967ms)
+  ✓   8 tests/experience.spec.ts:44:11 › site experience › / fits 1440×700 without runtime errors (1.1s)
+  ✓   9 tests/experience.spec.ts:44:11 › site experience › /heron-dashboard fits 1440×700 without runtime errors (1.2s)
+  ✓  11 tests/experience.spec.ts:91:7 › site experience › platform tabs support keyboard and persona accordion toggles (2.0s)
+  ✓  10 tests/experience.spec.ts:60:7 › site experience › hero drag, keyboard inspection and clear work (2.9s)
+  ✓  13 tests/experience.spec.ts:150:7 › site experience › dashboard feature navigation and approval decisions (3.9s)
+  ✓  12 tests/experience.spec.ts:106:7 › site experience › scroll phases reverse and route changes clean up pins (5.8s)
+  ✓  14 tests/experience.spec.ts:172:7 › site experience › FAQ supports keyboard open and close (2.7s)
+  ✓  16 tests/experience.spec.ts:204:7 › site experience › reduced motion removes pins and exposes all features (2.4s)
+  ✓  15 tests/experience.spec.ts:184:7 › site experience › footer lens follows the pointer and collapses on exit (4.0s)
+  ✓  17 tests/experience.spec.ts:219:5 › touch navigation, inspection and modal escape (2.8s)
+  ✓  18 tests/experience.spec.ts:248:5 › preloader finishes and does not repeat in the session (4.0s)
+
+  18 passed (25.1s)

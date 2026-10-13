@@ -1,0 +1,58 @@
+[
+  {
+    "name": "home",
+    "width": 1440,
+    "height": 900,
+    "documentWidth": 1440,
+    "overflowing": []
+  },
+  {
+    "name": "dashboard",
+    "width": 1440,
+    "height": 900,
+    "documentWidth": 1440,
+    "overflowing": []
+  },
+  {
+    "name": "home",
+    "width": 1920,
+    "height": 1080,
+    "documentWidth": 1920,
+    "overflowing": []
+  },
+  {
+    "name": "dashboard",
+    "width": 1920,
+    "height": 1080,
+    "documentWidth": 1920,
+    "overflowing": []
+  },
+  {
+    "name": "home",
+    "width": 390,
+    "height": 844,
+    "documentWidth": 390,
+    "overflowing": []
+  },
+  {
+    "name": "dashboard",
+    "width": 390,
+    "height": 844,
+    "documentWidth": 390,
+    "overflowing": []
+  },
+  {
+    "name": "home",
+    "width": 1440,
+    "height": 700,
+    "documentWidth": 1440,
+    "overflowing": []
+  },
+  {
+    "name": "dashboard",
+    "width": 1440,
+    "height": 700,
+    "documentWidth": 1440,
+    "overflowing": []
+  }
+]

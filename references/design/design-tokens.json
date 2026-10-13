@@ -1,0 +1,233 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "Heron AI Design Tokens",
+  "version": "1.0.0",
+  "extractionMethod": "Playwright Computed Styles, Webflow Shared CSS Inspection, and Official Case Study Analysis",
+  "statusLegend": {
+    "VERIFIED": "Directly confirmed via official source code / case study disclosure",
+    "MEASURED": "Directly measured in live browser DOM computed styles",
+    "ESTIMATED": "Visually inferred or calculated from surrounding context",
+    "UNKNOWN": "Not publicly inspectable"
+  },
+  "color": {
+    "background": {
+      "light": {
+        "value": "#e0e0da",
+        "rgb": "rgb(224, 224, 218)",
+        "status": "MEASURED",
+        "role": "Global page canvas background (warm blueprint architectural paper tone)"
+      },
+      "lightAlt": {
+        "value": "#e0e0d7",
+        "rgb": "rgb(224, 224, 215)",
+        "status": "MEASURED",
+        "role": "Slightly warmer off-white section background variant"
+      },
+      "dark": {
+        "value": "#282828",
+        "rgb": "rgb(40, 40, 40)",
+        "status": "MEASURED",
+        "role": "Inverted background surfaces, CTA cards, dark contrast blocks, preloader veil"
+      },
+      "transparent": {
+        "value": "transparent",
+        "status": "VERIFIED",
+        "role": "--content--transparent CSS variable"
+      }
+    },
+    "text": {
+      "primary": {
+        "token": "--content--primary",
+        "value": "#282828",
+        "rgb": "rgb(40, 40, 40)",
+        "status": "VERIFIED",
+        "role": "Primary headings, active labels, high-emphasis editorial copy"
+      },
+      "secondary": {
+        "token": "--content--secondary",
+        "value": "#414140",
+        "rgb": "rgb(65, 65, 64)",
+        "status": "VERIFIED",
+        "role": "Subheadings, supporting body copy, secondary descriptive text"
+      },
+      "tertiary": {
+        "token": "--content--terriary",
+        "value": "#282828b8",
+        "rgba": "rgba(40, 40, 40, 0.72)",
+        "status": "VERIFIED",
+        "role": "Muted body text, metadata indices, header links, technical annotation labels"
+      },
+      "disabled": {
+        "token": "--content--disable",
+        "value": "#b4b4b0",
+        "rgb": "rgb(180, 180, 176)",
+        "status": "VERIFIED",
+        "role": "Inactive items, ghost text, inactive timeline markers"
+      },
+      "white": {
+        "token": "--content--white",
+        "value": "#ffffff",
+        "rgb": "rgb(255, 255, 255)",
+        "status": "VERIFIED",
+        "role": "Text on dark background cards and primary CTA buttons"
+      }
+    },
+    "brand": {
+      "accent": {
+        "token": "--content--brand",
+        "value": "#fa3600",
+        "rgb": "rgb(250, 54, 0)",
+        "status": "VERIFIED",
+        "role": "Active architectural violation highlights, critical code warning tags, active indicators"
+      },
+      "accentAlt": {
+        "value": "#d72201",
+        "rgb": "rgb(215, 34, 1)",
+        "status": "MEASURED",
+        "role": "Secondary alert red / violation border accent"
+      },
+      "accentWarm": {
+        "value": "#dd6013",
+        "rgb": "rgb(221, 96, 19)",
+        "status": "MEASURED",
+        "role": "Warning state badge indicator"
+      },
+      "selectionFill": {
+        "value": "linear-gradient(..., rgba(255, 54, 0, 0.3), rgba(255, 54, 0, 0))",
+        "status": "VERIFIED",
+        "role": "Dynamic bounding-box selection fill during pointer drag in hero scene"
+      }
+    },
+    "border": {
+      "default": {
+        "token": "--content--border",
+        "value": "#b3b3af",
+        "rgb": "rgb(179, 179, 175)",
+        "status": "VERIFIED",
+        "role": "Architectural grid lines, card divider borders, crosshair bounding lines"
+      },
+      "surface": {
+        "token": "--content--surface",
+        "value": "#72726f",
+        "rgb": "rgb(114, 114, 111)",
+        "status": "VERIFIED",
+        "role": "Darker divider lines, inner panel dividers"
+      },
+      "granite": {
+        "token": "--content--granite-gray",
+        "value": "#626260",
+        "rgb": "rgb(98, 98, 96)",
+        "status": "VERIFIED",
+        "role": "Granite gray divider lines"
+      }
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": {
+        "name": "BT Grotesk",
+        "fallbacks": ["Arial", "sans-serif"],
+        "status": "VERIFIED",
+        "source": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a69a764736de82b5ed81ccd_BTGrotesk-Regular.woff2",
+        "weights": [400, 500, 600, 700],
+        "styles": ["normal", "italic"],
+        "license": "Commercial font licensed by Bearplus / client. Astra must use open-source alternative (e.g. Space Grotesk / Inter / Uncut Sans) for standalone implementation."
+      },
+      "monospace": {
+        "name": "Geistmono",
+        "fallbacks": ["Geist Mono", "ui-monospace", "SFMono-Regular", "monospace"],
+        "status": "VERIFIED",
+        "source": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c95_GeistMono-Medium.woff2",
+        "weights": [500],
+        "styles": ["normal"],
+        "license": "Open source (Vercel Geist Font, SIL Open Font License 1.1)"
+      }
+    },
+    "scale": {
+      "rootDesktop1440": { "fontSize": "8.33333px", "status": "MEASURED" },
+      "rootDesktop1920": { "fontSize": "11.1111px", "status": "MEASURED" },
+      "rootTablet834": { "fontSize": "10px", "status": "MEASURED" },
+      "rootMobile390": { "fontSize": "9.92366px", "status": "MEASURED" },
+      "h1": {
+        "fontSizeDesktop1440": "46.6667px",
+        "lineHeightDesktop1440": "46.6667px",
+        "letterSpacingDesktop1440": "-0.933333px",
+        "fontWeight": "700",
+        "status": "MEASURED"
+      },
+      "h2": {
+        "fontSizeDesktop1440": "33.3333px",
+        "lineHeightDesktop1440": "33.3333px",
+        "letterSpacingDesktop1440": "-0.666667px",
+        "fontWeight": "600",
+        "status": "MEASURED"
+      },
+      "body": {
+        "fontSizeDesktop1440": "13.3333px",
+        "lineHeightDesktop1440": "17.3333px",
+        "letterSpacingDesktop1440": "-0.266667px",
+        "fontWeight": "500",
+        "status": "MEASURED"
+      },
+      "metadata": {
+        "fontSizeDesktop1440": "10px",
+        "lineHeightDesktop1440": "12px",
+        "letterSpacingDesktop1440": "-0.1px",
+        "fontFamily": "Geistmono",
+        "fontWeight": "500",
+        "textTransform": "uppercase",
+        "status": "MEASURED"
+      }
+    }
+  },
+  "layout": {
+    "headerHeight": {
+      "desktop1440": "56.3px",
+      "desktop1920": "75.1px",
+      "mobile390": "49.6px",
+      "status": "MEASURED"
+    },
+    "heroPaddingTop": {
+      "desktop": "calc(4.4rem + 1rem*2)",
+      "tablet": "calc(3.2rem + 1rem*2)",
+      "mobile": "calc(2.4rem + 1rem*2)",
+      "status": "VERIFIED"
+    },
+    "maxScreenHeight": {
+      "value": "calc(100dvh - 1.6rem)",
+      "status": "VERIFIED"
+    },
+    "borderThickness": {
+      "token": "--size--border",
+      "value": "max(1px, 0.1rem)",
+      "measuredPx": "1px",
+      "status": "VERIFIED"
+    },
+    "containerMaxWidth": {
+      "value": "1440px",
+      "status": "MEASURED"
+    },
+    "pinnedScenes": {
+      "homeMap": {
+        "height": "700dvh",
+        "measuredPx": "6300px",
+        "status": "MEASURED",
+        "type": "Pinned scroll sequence (Observe -> Advise -> Act -> Learn)"
+      },
+      "dashboardKeyFeatures": {
+        "measuredPx": "4409.6px",
+        "status": "MEASURED",
+        "type": "Pinned sequence (One View -> Approval Queue -> Full History -> Team View -> Firm Standards)"
+      }
+    }
+  },
+  "zIndex": {
+    "preloader": 2147483647,
+    "cookieBanner": 99999,
+    "modalPopups": 10000000,
+    "header": 100,
+    "cursorCanvas": 9999,
+    "gridLines": 2,
+    "contentCards": 10
+  }
+}

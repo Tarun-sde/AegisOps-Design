@@ -1,5 +1,7 @@
 # AegisOps Coherent Demonstration Scenario Specification: Payment Gateway Degradation
 
+> **Implementation update:** See [Phase 3 implementation decisions](../architecture/phase3-implementation-decisions.md). The final brief overrides monochrome restrictions; the implemented incident is P2 / Degraded, the queue crosses its threshold at 09:21, and summaries derive from distributions. Historical library compatibility claims below are not the basis of the implementation.
+
 **Document Version:** 1.0.0  
 **Researcher:** Principal Product Research Engineer, Senior Observability UX Designer  
 **Scenario Target:** Northstar Engineering / Payment Gateway (`northstar/payment-gateway`)  

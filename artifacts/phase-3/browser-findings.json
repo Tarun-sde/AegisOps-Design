@@ -1,0 +1,344 @@
+{
+  "errors": [],
+  "readability": [
+    {
+      "name": "analytics-1920x1080",
+      "failures": []
+    },
+    {
+      "name": "investigation-1920x1080",
+      "failures": []
+    },
+    {
+      "name": "analytics-1440x900",
+      "failures": []
+    },
+    {
+      "name": "investigation-1440x900",
+      "failures": []
+    },
+    {
+      "name": "analytics-1440x700",
+      "failures": []
+    },
+    {
+      "name": "investigation-1440x700",
+      "failures": []
+    },
+    {
+      "name": "analytics-1024x768",
+      "failures": []
+    },
+    {
+      "name": "investigation-1024x768",
+      "failures": []
+    },
+    {
+      "name": "analytics-834x1112",
+      "failures": []
+    },
+    {
+      "name": "investigation-834x1112",
+      "failures": []
+    },
+    {
+      "name": "analytics-390x844",
+      "failures": []
+    },
+    {
+      "name": "investigation-390x844",
+      "failures": []
+    },
+    {
+      "name": "analytics-375x812",
+      "failures": []
+    },
+    {
+      "name": "investigation-375x812",
+      "failures": []
+    },
+    {
+      "name": "projects-grid",
+      "failures": []
+    },
+    {
+      "name": "projects-list",
+      "failures": []
+    },
+    {
+      "name": "sidebar-selector",
+      "failures": []
+    },
+    {
+      "name": "service-drawer",
+      "failures": []
+    },
+    {
+      "name": "incident-drawer",
+      "failures": []
+    },
+    {
+      "name": "evidence-Logs",
+      "failures": []
+    },
+    {
+      "name": "evidence-Traces",
+      "failures": []
+    },
+    {
+      "name": "evidence-Metrics",
+      "failures": []
+    },
+    {
+      "name": "evidence-Changes",
+      "failures": []
+    },
+    {
+      "name": "rollback-disabled",
+      "failures": []
+    },
+    {
+      "name": "disconnected",
+      "failures": []
+    },
+    {
+      "name": "pending",
+      "failures": []
+    },
+    {
+      "name": "mobile-projects",
+      "failures": []
+    },
+    {
+      "name": "mobile-navigation",
+      "failures": []
+    },
+    {
+      "name": "mobile-service-drawer",
+      "failures": []
+    },
+    {
+      "name": "mobile-sql-review",
+      "failures": []
+    },
+    {
+      "name": "local-empty",
+      "failures": []
+    }
+  ],
+  "overflow": [
+    {
+      "name": "analytics-1920x1080",
+      "viewport": 1920,
+      "width": 1920
+    },
+    {
+      "name": "investigation-1920x1080",
+      "viewport": 1920,
+      "width": 1920
+    },
+    {
+      "name": "analytics-1440x900",
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "name": "investigation-1440x900",
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "name": "analytics-1440x700",
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "name": "investigation-1440x700",
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "name": "analytics-1024x768",
+      "viewport": 1024,
+      "width": 1024
+    },
+    {
+      "name": "investigation-1024x768",
+      "viewport": 1024,
+      "width": 1024
+    },
+    {
+      "name": "analytics-834x1112",
+      "viewport": 834,
+      "width": 834
+    },
+    {
+      "name": "investigation-834x1112",
+      "viewport": 834,
+      "width": 834
+    },
+    {
+      "name": "analytics-390x844",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "name": "investigation-390x844",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "name": "analytics-375x812",
+      "viewport": 375,
+      "width": 375
+    },
+    {
+      "name": "investigation-375x812",
+      "viewport": 375,
+      "width": 375
+    },
+    {
+      "name": "projects-grid",
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "name": "projects-list",
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "name": "sidebar-selector",
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "name": "service-drawer",
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "name": "incident-drawer",
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "name": "evidence-Logs",
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "name": "evidence-Traces",
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "name": "evidence-Metrics",
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "name": "evidence-Changes",
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "name": "rollback-disabled",
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "name": "disconnected",
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "name": "pending",
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "name": "mobile-projects",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "name": "mobile-navigation",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "name": "mobile-service-drawer",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "name": "mobile-sql-review",
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "name": "local-empty",
+      "viewport": 390,
+      "width": 390
+    }
+  ],
+  "screenshots": [
+    "analytics-header-1920x1080",
+    "analytics-chart-1920x1080",
+    "investigation-1920x1080",
+    "evidence-1920x1080",
+    "analytics-header-1440x900",
+    "analytics-chart-1440x900",
+    "investigation-1440x900",
+    "evidence-1440x900",
+    "analytics-header-1440x700",
+    "analytics-chart-1440x700",
+    "investigation-1440x700",
+    "evidence-1440x700",
+    "analytics-header-1024x768",
+    "analytics-chart-1024x768",
+    "investigation-1024x768",
+    "evidence-1024x768",
+    "analytics-header-834x1112",
+    "analytics-chart-834x1112",
+    "investigation-834x1112",
+    "evidence-834x1112",
+    "analytics-header-390x844",
+    "analytics-chart-390x844",
+    "investigation-390x844",
+    "evidence-390x844",
+    "analytics-header-375x812",
+    "analytics-chart-375x812",
+    "investigation-375x812",
+    "evidence-375x812",
+    "projects-after",
+    "project-cards",
+    "projects-list",
+    "sidebar-selector",
+    "metric-throughput",
+    "metric-errorRate",
+    "metric-p95",
+    "metric-p99",
+    "metric-sli",
+    "metric-incidents",
+    "service-breakdown",
+    "incident-register",
+    "service-drawer",
+    "incident-drawer",
+    "hypotheses",
+    "evidence-logs",
+    "evidence-traces",
+    "evidence-metrics",
+    "evidence-changes",
+    "recommended-actions",
+    "rollback-disabled",
+    "disconnected",
+    "pending",
+    "mobile-projects",
+    "mobile-navigation",
+    "mobile-service-drawer",
+    "mobile-sql-review",
+    "local-empty"
+  ]
+}

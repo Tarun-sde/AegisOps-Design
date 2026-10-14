@@ -1,0 +1,32 @@
+
+> heron-architectural-showcase@1.0.0 build
+> next build
+
+▲ Next.js 16.4.0 (Turbopack)
+✓ Running next.config.ts took 29ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 766ms
+  Running TypeScript ...
+  Finished TypeScript in 2.4s ...
+  Collecting page data using 9 workers ...
+  Generating static pages using 9 workers (0/5) ...
+  Generating static pages using 9 workers (1/5) 
+  Generating static pages using 9 workers (2/5) 
+  Generating static pages using 9 workers (3/5) 
+✓ Generating static pages using 9 workers (5/5) in 688ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /heron-dashboard
+├ ○ /projects
+├ ƒ /projects/[workspaceId]
+├ ƒ /projects/[workspaceId]/[projectId]
+└ ƒ /projects/[workspaceId]/[projectId]/incidents/[incidentId]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

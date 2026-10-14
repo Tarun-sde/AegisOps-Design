@@ -1,5 +1,7 @@
 # Technical Evaluation & Decision: Charting Visualization Architecture
 
+> **Implementation update:** See [Phase 3 implementation decisions](../architecture/phase3-implementation-decisions.md). The final brief overrides monochrome restrictions; the implemented incident is P2 / Degraded, the queue crosses its threshold at 09:21, and summaries derive from distributions. Historical library compatibility claims below are not the basis of the implementation.
+
 **Document Version:** 1.0.0  
 **Researcher:** Principal Technical Architecture Analyst, Senior Frontend Engineer  
 **Repository Context:** Next.js 16.4.0, React 19.3.0, GSAP 3.15, TailwindCSS v4, TypeScript 6.0  

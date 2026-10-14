@@ -12,6 +12,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { PageLink, useSiteNavigate } from "@/components/site-shell";
 import { demoProjects, projectHref, workspaces } from "@/lib/demo/projects";
+import { hasTelemetry } from "@/lib/demo/telemetry/telemetry";
 import { useDemo, updateDemo } from "@/lib/demo/store";
 import { Selector } from "./selector";
 import { AegisMark } from "./project-visuals";
@@ -189,11 +190,28 @@ export function WorkspaceShell({ children }: { children: ReactNode }) {
             <Link
               href={`${projectHref(project)}#overview`}
               title="Project overview"
-              aria-current="page"
+              aria-current={path === projectHref(project) ? "page" : undefined}
             >
               <span aria-hidden="true">⊡</span>
               <span className="ws-rail-label">Overview</span>
             </Link>
+            <Link
+              href={`${projectHref(project)}#analytics`}
+              title="Project analytics"
+            >
+              <span aria-hidden="true">↗</span>
+              <span className="ws-rail-label">Analytics</span>
+            </Link>
+            {hasTelemetry(project) && (
+              <Link
+                href={`${projectHref(project)}#incidents`}
+                title="Project incidents"
+                aria-current={path.includes("/incidents/") ? "page" : undefined}
+              >
+                <span aria-hidden="true">△</span>
+                <span className="ws-rail-label">Incidents</span>
+              </Link>
+            )}
             <Link
               href={`${projectHref(project)}#services`}
               title="Project services"

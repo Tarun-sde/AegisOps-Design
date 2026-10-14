@@ -1,5 +1,7 @@
 # Technical Architecture Decisions & Rationale
 
+> **Implementation update:** See [Phase 3 implementation decisions](../architecture/phase3-implementation-decisions.md). The final brief overrides monochrome restrictions; the implemented incident is P2 / Degraded, the queue crosses its threshold at 09:21, and summaries derive from distributions. Historical library compatibility claims below are not the basis of the implementation.
+
 **Document Version:** 1.0.0  
 **Researcher:** Principal Technical Architecture Analyst, Senior Systems Designer  
 **Target:** Technical Interview Defense & Architectural Documentation  

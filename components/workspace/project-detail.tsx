@@ -5,10 +5,15 @@ import { type Project, projectHref, signalLabel } from "@/lib/demo/projects";
 import { MissingResource, useWorkspaceData } from "./workspace-shell";
 import { Selector } from "./selector";
 import { HealthStatus, ServiceDrawing } from "./project-visuals";
+import { AnalyticsDashboard } from "./analytics/analytics-dashboard";
+import { hasTelemetry } from "@/lib/demo/telemetry/telemetry";
 import { ProjectActions } from "./project-card";
 export function ServicesList({ project }: { project: Project }) {
   return (
-    <section id="services" className="ws-detail-panel">
+    <section
+      id={hasTelemetry(project) ? "service-inventory" : "services"}
+      className="ws-detail-panel"
+    >
       <div className="ws-panel-heading">
         <h2>Service inventory</h2>
         <span className="mono">
@@ -140,15 +145,24 @@ export function ProjectDetail() {
         <Link href="#overview">
           Overview <span>01</span>
         </Link>
+        <Link href="#analytics">
+          Analytics <span>02</span>
+        </Link>
         <Link href="#services">
           Services{" "}
           <span>{project.services.length.toString().padStart(2, "0")}</span>
         </Link>
+        {hasTelemetry(project) && (
+          <Link href="#incidents">
+            Incidents & Intelligence <span>01</span>
+          </Link>
+        )}
         <Link href="#activity">
           Activity{" "}
           <span>{project.activities.length.toString().padStart(2, "0")}</span>
         </Link>
       </nav>
+      <AnalyticsDashboard key={project.id} project={project} />
       <div className="ws-detail-overview">
         <section className="ws-connection-panel">
           <div className="ws-panel-heading">

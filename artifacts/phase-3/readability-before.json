@@ -1,0 +1,404 @@
+[
+  {
+    "text": "APPLICATION OVERSIGHT",
+    "size": "8px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "Northstar Engineering↕",
+    "size": "13px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgb(224, 224, 218)"
+  },
+  {
+    "text": "⌕Find projectsF",
+    "size": "13px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "WORKSPACE / N / 02",
+    "size": "10px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "04",
+    "size": "10.4px",
+    "color": "rgb(224, 224, 218)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "YOUR FAVORITES / 00",
+    "size": "10px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "Pin projects to keep them close.",
+    "size": "11px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "LOCAL DEMONSTRATION",
+    "size": "8px",
+    "color": "rgb(224, 224, 218)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "A considered view ofevery application.",
+    "size": "17px",
+    "color": "rgb(224, 224, 218)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "←Collapse sidebar",
+    "size": "11px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "DEMO / NO LIVE CONNECTION",
+    "size": "10px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "N / 02 / APPLICATION OVERSIGHT",
+    "size": "10px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "One place to oversee every application.",
+    "size": "14px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "Create demo project ＋",
+    "size": "12px",
+    "color": "rgb(224, 224, 218)",
+    "background": "rgb(40, 40, 40)"
+  },
+  {
+    "text": "WORKSPACE",
+    "size": "9px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "Organization workspace",
+    "size": "10px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "APPLICATIONS",
+    "size": "9px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "3 sample connections",
+    "size": "10px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "ACTIVE INCIDENTS",
+    "size": "9px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "Illustrative incidents",
+    "size": "10px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "SAMPLE SNAPSHOT / 14 OCT 2026",
+    "size": "9px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "A working view of fictional applications.No live infrastructure is connected.",
+    "size": "11px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "⊞",
+    "size": "22px",
+    "color": "rgb(224, 224, 218)",
+    "background": "rgb(40, 40, 40)"
+  },
+  {
+    "text": "☰",
+    "size": "22px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "SHOWING 4 OF 4 PROJECTS",
+    "size": "10px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "01 / PROJECT INDEX",
+    "size": "10px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "[01] / customer-portal",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "☆",
+    "size": "19px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "···",
+    "size": "20px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgb(224, 224, 218)"
+  },
+  {
+    "text": "A single point of access for Northstar customers.",
+    "size": "12px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "React / Node.js",
+    "size": "9px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "SERVICE SCHEMATICproduction",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "healthy",
+    "size": "9px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "LAST SAMPLE SIGNAL",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "Customer session checks completed",
+    "size": "11px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "14 Oct · 09:29 UTC",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "[02] / authentication",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "☆",
+    "size": "19px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "···",
+    "size": "20px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgb(224, 224, 218)"
+  },
+  {
+    "text": "Identity, access and secure sessions across the platform.",
+    "size": "12px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "Go / Redis",
+    "size": "9px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "SERVICE SCHEMATICproduction",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "critical",
+    "size": "9px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "LAST SAMPLE SIGNAL",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "Identity failures and session-store timeouts detected",
+    "size": "11px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "14 Oct · 09:27 UTC",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "[03] / payment-gateway",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "☆",
+    "size": "19px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "···",
+    "size": "20px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgb(224, 224, 218)"
+  },
+  {
+    "text": "Payment processing, settlement and reconciliation.",
+    "size": "12px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "Java / PostgreSQL",
+    "size": "9px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "SERVICE SCHEMATICproduction",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "degraded",
+    "size": "9px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "LAST SAMPLE SIGNAL",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "Settlement queue exceeded the sample threshold",
+    "size": "11px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "14 Oct · 09:26 UTC",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "[04] / inventory",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "☆",
+    "size": "19px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "···",
+    "size": "20px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgb(224, 224, 218)"
+  },
+  {
+    "text": "Stock movement and fulfillment, kept in step.",
+    "size": "12px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "Python / PostgreSQL",
+    "size": "9px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "SERVICE SCHEMATICstaging",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "unknown",
+    "size": "9px",
+    "color": "rgb(40, 40, 40)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "CONNECTION",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "Pending setup. No telemetry connected.",
+    "size": "11px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "No telemetry received",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "text": "AEGISOPS / APPLICATION REGISTERFICTIONAL DATA · REV 02",
+    "size": "8px",
+    "color": "rgba(40, 40, 40, 0.72)",
+    "background": "rgba(0, 0, 0, 0)"
+  }
+]

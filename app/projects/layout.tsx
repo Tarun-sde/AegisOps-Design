@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { WorkspaceShell } from "@/components/workspace/workspace-shell";
 import "./workspace.css";
+import "./analytics.css";
 export const metadata: Metadata = {
   title: { absolute: "AegisOps — Project workspace" },
   description:

@@ -206,7 +206,7 @@ h3 {
 }
 .desktop-nav {
   display: grid;
-  grid-template-columns: 1.05fr 1fr 1fr 1fr 1.25fr;
+  grid-template-columns: 1.05fr 1fr 1fr 1fr 1fr 1.25fr;
   width: 50%;
 }
 .desktop-nav > a,

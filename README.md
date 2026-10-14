@@ -11,7 +11,11 @@ npm ci
 npm run dev
 ```
 
-Open the local URL printed by Next.js. Routes: `/` and `/heron-dashboard`.
+Open the local URL printed by Next.js. Marketing routes: `/` and `/heron-dashboard`.
+
+The AegisOps demo starts at `/projects`. It remembers your workspace and supports `/projects/personal`, `/projects/northstar`, `/projects/sandbox`, and `/projects/[workspaceId]/[projectId]`. Use the Workspace link in the existing navigation. Search, filters, favorites, grid/list views, project switching and local creation work without a backend. Browser-local projects and preferences are stored under `aegisops-demo-v1`; no telemetry is connected.
+
+See [Phase 2 implementation details](PHASE_2_IMPLEMENTATION_REPORT.md) and the [Phase 2 screenshot gallery](artifacts/phase-2/index.html). Recreate the new captures with `TEST_BASE_URL=http://localhost:3011 node scripts/capture-projects.mjs`.
 
 ```sh
 npm run typecheck

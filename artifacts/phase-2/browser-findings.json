@@ -1,0 +1,694 @@
+{
+  "errors": [],
+  "warnings": [],
+  "screenshots": [
+    {
+      "file": "1920x1080-grid.png",
+      "width": 1920,
+      "height": 1080,
+      "name": "grid",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1920x1080-grid-full.png",
+      "width": 1920,
+      "height": 1080,
+      "name": "grid-full",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1920x1080-list.png",
+      "width": 1920,
+      "height": 1080,
+      "name": "list",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1920x1080-workspace-selector.png",
+      "width": 1920,
+      "height": 1080,
+      "name": "workspace-selector",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1920x1080-collapsed.png",
+      "width": 1920,
+      "height": 1080,
+      "name": "collapsed",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1920x1080-card-hover.png",
+      "width": 1920,
+      "height": 1080,
+      "name": "card-hover",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1920x1080-card-focus.png",
+      "width": 1920,
+      "height": 1080,
+      "name": "card-focus",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1920x1080-favorites.png",
+      "width": 1920,
+      "height": 1080,
+      "name": "favorites",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1920x1080-context-menu.png",
+      "width": 1920,
+      "height": 1080,
+      "name": "context-menu",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1920x1080-filtered.png",
+      "width": 1920,
+      "height": 1080,
+      "name": "filtered",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1920x1080-no-results.png",
+      "width": 1920,
+      "height": 1080,
+      "name": "no-results",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1920x1080-project-detail.png",
+      "width": 1920,
+      "height": 1080,
+      "name": "project-detail",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1920x1080-empty-workspace.png",
+      "width": 1920,
+      "height": 1080,
+      "name": "empty-workspace",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1920x1080-create-modal.png",
+      "width": 1920,
+      "height": 1080,
+      "name": "create-modal",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1920x1080-validation.png",
+      "width": 1920,
+      "height": 1080,
+      "name": "validation",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x900-grid.png",
+      "width": 1440,
+      "height": 900,
+      "name": "grid",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x900-grid-full.png",
+      "width": 1440,
+      "height": 900,
+      "name": "grid-full",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1440x900-list.png",
+      "width": 1440,
+      "height": 900,
+      "name": "list",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1440x900-workspace-selector.png",
+      "width": 1440,
+      "height": 900,
+      "name": "workspace-selector",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x900-collapsed.png",
+      "width": 1440,
+      "height": 900,
+      "name": "collapsed",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x900-card-hover.png",
+      "width": 1440,
+      "height": 900,
+      "name": "card-hover",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x900-card-focus.png",
+      "width": 1440,
+      "height": 900,
+      "name": "card-focus",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x900-favorites.png",
+      "width": 1440,
+      "height": 900,
+      "name": "favorites",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1440x900-context-menu.png",
+      "width": 1440,
+      "height": 900,
+      "name": "context-menu",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x900-filtered.png",
+      "width": 1440,
+      "height": 900,
+      "name": "filtered",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1440x900-no-results.png",
+      "width": 1440,
+      "height": 900,
+      "name": "no-results",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x900-project-detail.png",
+      "width": 1440,
+      "height": 900,
+      "name": "project-detail",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1440x900-empty-workspace.png",
+      "width": 1440,
+      "height": 900,
+      "name": "empty-workspace",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x900-create-modal.png",
+      "width": 1440,
+      "height": 900,
+      "name": "create-modal",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x900-validation.png",
+      "width": 1440,
+      "height": 900,
+      "name": "validation",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x700-grid.png",
+      "width": 1440,
+      "height": 700,
+      "name": "grid",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x700-grid-full.png",
+      "width": 1440,
+      "height": 700,
+      "name": "grid-full",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1440x700-list.png",
+      "width": 1440,
+      "height": 700,
+      "name": "list",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1440x700-workspace-selector.png",
+      "width": 1440,
+      "height": 700,
+      "name": "workspace-selector",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x700-collapsed.png",
+      "width": 1440,
+      "height": 700,
+      "name": "collapsed",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x700-card-hover.png",
+      "width": 1440,
+      "height": 700,
+      "name": "card-hover",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x700-card-focus.png",
+      "width": 1440,
+      "height": 700,
+      "name": "card-focus",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x700-favorites.png",
+      "width": 1440,
+      "height": 700,
+      "name": "favorites",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1440x700-context-menu.png",
+      "width": 1440,
+      "height": 700,
+      "name": "context-menu",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x700-filtered.png",
+      "width": 1440,
+      "height": 700,
+      "name": "filtered",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1440x700-no-results.png",
+      "width": 1440,
+      "height": 700,
+      "name": "no-results",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x700-project-detail.png",
+      "width": 1440,
+      "height": 700,
+      "name": "project-detail",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1440x700-empty-workspace.png",
+      "width": 1440,
+      "height": 700,
+      "name": "empty-workspace",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x700-create-modal.png",
+      "width": 1440,
+      "height": 700,
+      "name": "create-modal",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1440x700-validation.png",
+      "width": 1440,
+      "height": 700,
+      "name": "validation",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1024x768-grid.png",
+      "width": 1024,
+      "height": 768,
+      "name": "grid",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1024x768-grid-full.png",
+      "width": 1024,
+      "height": 768,
+      "name": "grid-full",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1024x768-list.png",
+      "width": 1024,
+      "height": 768,
+      "name": "list",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1024x768-workspace-selector.png",
+      "width": 1024,
+      "height": 768,
+      "name": "workspace-selector",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1024x768-collapsed.png",
+      "width": 1024,
+      "height": 768,
+      "name": "collapsed",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1024x768-card-hover.png",
+      "width": 1024,
+      "height": 768,
+      "name": "card-hover",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1024x768-card-focus.png",
+      "width": 1024,
+      "height": 768,
+      "name": "card-focus",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1024x768-favorites.png",
+      "width": 1024,
+      "height": 768,
+      "name": "favorites",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1024x768-context-menu.png",
+      "width": 1024,
+      "height": 768,
+      "name": "context-menu",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1024x768-filtered.png",
+      "width": 1024,
+      "height": 768,
+      "name": "filtered",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1024x768-no-results.png",
+      "width": 1024,
+      "height": 768,
+      "name": "no-results",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1024x768-project-detail.png",
+      "width": 1024,
+      "height": 768,
+      "name": "project-detail",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "1024x768-empty-workspace.png",
+      "width": 1024,
+      "height": 768,
+      "name": "empty-workspace",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1024x768-create-modal.png",
+      "width": 1024,
+      "height": 768,
+      "name": "create-modal",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "1024x768-validation.png",
+      "width": 1024,
+      "height": 768,
+      "name": "validation",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "390x844-grid.png",
+      "width": 390,
+      "height": 844,
+      "name": "grid",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "390x844-grid-full.png",
+      "width": 390,
+      "height": 844,
+      "name": "grid-full",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "390x844-list.png",
+      "width": 390,
+      "height": 844,
+      "name": "list",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "390x844-mobile-navigation.png",
+      "width": 390,
+      "height": 844,
+      "name": "mobile-navigation",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "390x844-workspace-selector.png",
+      "width": 390,
+      "height": 844,
+      "name": "workspace-selector",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "390x844-favorites.png",
+      "width": 390,
+      "height": 844,
+      "name": "favorites",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "390x844-context-menu.png",
+      "width": 390,
+      "height": 844,
+      "name": "context-menu",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "390x844-filtered.png",
+      "width": 390,
+      "height": 844,
+      "name": "filtered",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "390x844-no-results.png",
+      "width": 390,
+      "height": 844,
+      "name": "no-results",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "390x844-project-detail.png",
+      "width": 390,
+      "height": 844,
+      "name": "project-detail",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "390x844-empty-workspace.png",
+      "width": 390,
+      "height": 844,
+      "name": "empty-workspace",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "390x844-create-modal.png",
+      "width": 390,
+      "height": 844,
+      "name": "create-modal",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "390x844-validation.png",
+      "width": 390,
+      "height": 844,
+      "name": "validation",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "375x812-grid.png",
+      "width": 375,
+      "height": 812,
+      "name": "grid",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "375x812-grid-full.png",
+      "width": 375,
+      "height": 812,
+      "name": "grid-full",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "375x812-list.png",
+      "width": 375,
+      "height": 812,
+      "name": "list",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "375x812-mobile-navigation.png",
+      "width": 375,
+      "height": 812,
+      "name": "mobile-navigation",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "375x812-workspace-selector.png",
+      "width": 375,
+      "height": 812,
+      "name": "workspace-selector",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "375x812-favorites.png",
+      "width": 375,
+      "height": 812,
+      "name": "favorites",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "375x812-context-menu.png",
+      "width": 375,
+      "height": 812,
+      "name": "context-menu",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "375x812-filtered.png",
+      "width": 375,
+      "height": 812,
+      "name": "filtered",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "375x812-no-results.png",
+      "width": 375,
+      "height": 812,
+      "name": "no-results",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "375x812-project-detail.png",
+      "width": 375,
+      "height": 812,
+      "name": "project-detail",
+      "fullPage": true,
+      "overflow": false
+    },
+    {
+      "file": "375x812-empty-workspace.png",
+      "width": 375,
+      "height": 812,
+      "name": "empty-workspace",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "375x812-create-modal.png",
+      "width": 375,
+      "height": 812,
+      "name": "create-modal",
+      "fullPage": false,
+      "overflow": false
+    },
+    {
+      "file": "375x812-validation.png",
+      "width": 375,
+      "height": 812,
+      "name": "validation",
+      "fullPage": false,
+      "overflow": false
+    }
+  ]
+}

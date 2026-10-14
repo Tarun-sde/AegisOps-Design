@@ -1,0 +1,112 @@
+
+Running 27 tests using 2 workers
+
+(node:17436) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+(node:17437) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+  ✓   2 tests/projects.spec.ts:22:5 › stored local projects reject malformed or invented telemetry (15ms)
+  ✓   1 tests/projects.spec.ts:11:5 › selectors are deterministic, immutable and compose all search fields (53ms)
+  ✓   4 tests/projects.spec.ts:34:5 › search, clear, filters, reset and grid/list retain the same results (1.9s)
+  ✓   5 tests/projects.spec.ts:44:5 › sorting orders project collection and list groups environments (1.2s)
+  ✓   3 tests/projects.spec.ts:27:5 › entry, workspace switching, counts and remembered route (4.1s)
+  ✘   6 tests/projects.spec.ts:52:5 › favorites and context menu persist, remain scoped, and do not open card accidentally (2.7s)
+  ✓   7 tests/projects.spec.ts:59:40 › project link and direct data: IronLog (2.1s)
+(node:17771) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+  ✓   8 tests/projects.spec.ts:59:40 › project link and direct data: Portfolio API (1.7s)
+  ✓   9 tests/projects.spec.ts:59:40 › project link and direct data: RentSense (2.7s)
+  ✓  10 tests/projects.spec.ts:59:40 › project link and direct data: Customer Portal (2.6s)
+  ✓  11 tests/projects.spec.ts:59:40 › project link and direct data: Payment Gateway (2.7s)
+  ✓  12 tests/projects.spec.ts:59:40 › project link and direct data: Authentication Service (2.5s)
+  ✓  13 tests/projects.spec.ts:59:40 › project link and direct data: Inventory Platform (1.9s)
+  ✓  14 tests/projects.spec.ts:67:5 › switch project, breadcrumbs and native history follow the correct scope (2.7s)
+  ✓  15 tests/projects.spec.ts:73:5 › unknown workspace, unknown project and wrong workspace are useful states (1.7s)
+  ✓  17 tests/projects.spec.ts:86:5 › keyboard selectors, escape, focus restore, shortcut and collapse (2.0s)
+  ✓  18 tests/projects.spec.ts:93:173 › workspace responsive, usable and error free at 1920x1080 (869ms)
+  ✓  19 tests/projects.spec.ts:93:173 › workspace responsive, usable and error free at 1440x900 (698ms)
+  ✓  20 tests/projects.spec.ts:93:173 › workspace responsive, usable and error free at 1440x700 (728ms)
+  ✓  21 tests/projects.spec.ts:93:173 › workspace responsive, usable and error free at 1024x768 (809ms)
+  ✓  22 tests/projects.spec.ts:93:173 › workspace responsive, usable and error free at 390x844 (2.1s)
+  ✓  23 tests/projects.spec.ts:93:173 › workspace responsive, usable and error free at 375x812 (2.1s)
+  ✓  24 tests/projects.spec.ts:101:5 › reduced motion skips animation and remains functional (530ms)
+  ✓  25 tests/projects.spec.ts:105:5 › corrupt storage is preserved and projects remain usable (824ms)
+  ✓  26 tests/projects.spec.ts:108:5 › storage write failure keeps newly created project usable with a clear warning (1.6s)
+  ✓  27 tests/projects.spec.ts:112:5 › marketing entry and repeated navigation do not leave pins or scroll locks (5.4s)
+  ✘  16 tests/projects.spec.ts:78:5 › creation validates names and duplicates, persists honest data in target workspace (30.2s)
+
+
+  1) tests/projects.spec.ts:52:5 › favorites and context menu persist, remain scoped, and do not open card accidentally 
+
+    Error: expect(locator).not.toContainText(expected) failed
+
+    Locator: locator('.ws-sidebar-favorites')
+    Expected substring: not "IronLog"
+    Error: strict mode violation: locator('.ws-sidebar-favorites') resolved to 2 elements:
+        1) <div class="ws-sidebar-favorites ws-rail-label">…</div> aka getByRole('complementary').getByText('YOUR FAVORITES / 00Pin')
+        2) <div class="ws-sidebar-favorites ws-rail-label">…</div> aka getByText('YOUR FAVORITES / 00Pin').nth(1)
+
+    Call log:
+      - Expect "not toContainText" locator('.ws-sidebar-favorites') with timeout 5000ms
+      - waiting for locator('.ws-sidebar-favorites')
+
+
+      54 |   await page.getByRole("menuitem",{name:"Add favorite",exact:true}).click(); await expect(page).toHaveURL(/\/personal$/); await expect(page.locator(".ws-favorites")).toContainText("IronLog");
+      55 |   await page.reload(); await expect(page.getByRole("button",{name:"Unpin IronLog",exact:true})).toHaveAttribute("aria-pressed","true");
+    > 56 |   await workspace(page,"Northstar"); await expect(page.locator(".ws-favorites")).toHaveCount(0); await expect(page.locator(".ws-sidebar-favorites")).not.toContainText("IronLog");
+         |                                                                                                                                                          ^
+      57 |   await page.getByRole("button",{name:"Actions for Payment Gateway",exact:true}).click(); await page.getByRole("menuitem",{name:"View services",exact:true}).click(); await expect(page).toHaveURL(/payment-gateway#services$/); await expect(page.locator("#services")).toContainText("Queue Worker");
+      58 | });
+      59 | for(const project of demoProjects) test(`project link and direct data: ${project.name}`,async({page})=>{
+        at /run/media/tarun/Tarun Files1/AegisOps/AegisOps Design/tests/projects.spec.ts:56:154
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/projects-favorites-and-con-b6d4a--not-open-card-accidentally/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/projects-favorites-and-con-b6d4a--not-open-card-accidentally/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/projects-favorites-and-con-b6d4a--not-open-card-accidentally/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/projects-favorites-and-con-b6d4a--not-open-card-accidentally/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/projects.spec.ts:78:5 › creation validates names and duplicates, persists honest data in target workspace 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.selectOption: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('dialog', { name: 'Create demo project' }).getByLabel('Workspace', { exact: true })
+
+
+      80 |     { health: "healthy" },
+      81 |     { lastSignalAt: "2026-10-14" },
+    > 82 |     { workspaceId: "missing" },
+         |                                ^
+      83 |     { name: "  " },
+      84 |     { services: null },
+      85 |     { id: "../../bad" },
+        at /run/media/tarun/Tarun Files1/AegisOps/AegisOps Design/tests/projects.spec.ts:82:201
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/projects-creation-validate-f7cb4-st-data-in-target-workspace/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/projects-creation-validate-f7cb4-st-data-in-target-workspace/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/projects-creation-validate-f7cb4-st-data-in-target-workspace/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/projects-creation-validate-f7cb4-st-data-in-target-workspace/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests/projects.spec.ts:52:5 › favorites and context menu persist, remain scoped, and do not open card accidentally 
+    tests/projects.spec.ts:78:5 › creation validates names and duplicates, persists honest data in target workspace 
+  25 passed (47.8s)

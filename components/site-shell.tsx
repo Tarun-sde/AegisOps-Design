@@ -19,6 +19,7 @@ import { Elevation, Mark } from "./artwork";
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 const Navigation = createContext<(href: string) => void>(() => {});
 const Scroll = createContext<(top: number) => void>(() => {});
+export const useSiteNavigate = () => useContext(Navigation);
 export const useSiteScroll = () => useContext(Scroll);
 export function PageLink({
   href,
@@ -156,7 +157,14 @@ function Cursor() {
             gsap.ticker.add(tick);
           }
         };
+        const workspaceControl = (event: PointerEvent) =>
+          location.pathname.startsWith("/projects") &&
+          (event.target as Element)?.closest("input, textarea, select, dialog");
         const move = (event: PointerEvent) => {
+          if (workspaceControl(event)) {
+            leave();
+            return;
+          }
           tx = event.clientX;
           ty = event.clientY;
           color = (event.target as Element)?.closest("[data-dark]")
@@ -164,12 +172,17 @@ function Cursor() {
             : "#282828";
           wake();
         };
-        const press = () => {
+        const press = (event: PointerEvent) => {
+          if (workspaceControl(event)) return;
           down = true;
           wake();
         };
-        const release = () => {
+        const release = (event: PointerEvent) => {
           down = false;
+          if (workspaceControl(event)) {
+            leave();
+            return;
+          }
           wake();
         };
         const leave = () => {
@@ -349,6 +362,9 @@ function Header() {
       </a>
       <Link href="/heron-dashboard#faq">Resources</Link>
       <Link href="/#about">About</Link>
+      <PageLink href="/projects">
+        Workspace <span>↗</span>
+      </PageLink>
       <a
         href="https://heronaiapp.com/contact-us"
         target="_blank"
@@ -404,6 +420,9 @@ function Header() {
           <PageLink href="/heron-dashboard">
             Heron Dashboard <span>↗</span>
           </PageLink>
+          <PageLink href="/projects">
+            Workspace <span>↗</span>
+          </PageLink>
           <Link href="/#platforms">
             Product <span>↘</span>
           </Link>
@@ -437,6 +456,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
     path = usePathname(),
     curtain = useRef<HTMLDivElement>(null),
     busy = useRef(false);
+  const workspace = path === "/projects" || path.startsWith("/projects/");
   const transition = useRef<gsap.core.Tween | null>(null);
   const lenisRef = useRef<Lenis | null>(null);
   const scrollTo = (top: number) => {
@@ -471,6 +491,10 @@ export function SiteShell({ children }: { children: ReactNode }) {
       scrollTo(0);
       return;
     }
+    if (new URL(href, location.origin).pathname === path) {
+      router.push(href);
+      return;
+    }
     if (busy.current) return;
     busy.current = true;
     if (matchMedia("(prefers-reduced-motion: reduce)").matches) {
@@ -497,14 +521,16 @@ export function SiteShell({ children }: { children: ReactNode }) {
           Skip to content
         </a>
         <div className="site-frame">
-          <Header />
+          {!workspace && <Header />}
           {children}
         </div>
         <Cursor />
-        <Preloader />
+        {!workspace && <Preloader />}
         <div className="route-curtain" ref={curtain} aria-hidden="true">
-          <Mark />
-          <span className="mono">HERON AI / CHANGING VIEW</span>
+          {workspace ? <span className="mono">A / O</span> : <Mark />}
+          <span className="mono">
+            {workspace ? "AEGISOPS" : "HERON AI"} / CHANGING VIEW
+          </span>
         </div>
       </Scroll.Provider>
     </Navigation.Provider>

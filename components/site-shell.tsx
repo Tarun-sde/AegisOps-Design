@@ -209,6 +209,7 @@ function Preloader() {
         /* Storage can be unavailable in private browser contexts. */
       }
       if (visited || matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        document.documentElement.dataset.heronEntered = "true";
         gsap.set(ref.current, { display: "none" });
         return;
       }
@@ -217,6 +218,7 @@ function Preloader() {
         counter = ref.current!.querySelector("[data-counter]")!;
       const timeline = gsap.timeline({
         onComplete: () => {
+          document.documentElement.classList.add("heron-skip-loader");
           try {
             sessionStorage.setItem("heron-entered", "1");
           } catch {
@@ -246,9 +248,18 @@ function Preloader() {
         .fromTo(
           ".loader-art path",
           { strokeDasharray: 1800, strokeDashoffset: 1800 },
-          { strokeDashoffset: 0, duration: 2 },
+          {
+            strokeDashoffset: 0,
+            duration: 1.6,
+            stagger: { amount: 0.45 },
+            ease: "power1.inOut",
+          },
           0,
         )
+        .call(() => {
+          document.documentElement.dataset.heronEntered = "true";
+          window.dispatchEvent(new Event("heron:entrance"));
+        })
         .to(ref.current, {
           clipPath: "inset(0 0 100% 0)",
           duration: 0.65,
@@ -291,13 +302,37 @@ function Header() {
   const dialog = useRef<HTMLDialogElement>(null);
   const nav = (
     <>
-      <details className="product-menu"
-        onPointerEnter={event => { if (event.pointerType === "mouse") event.currentTarget.open = true; }}
-        onPointerLeave={event => { if (event.pointerType === "mouse" && !event.currentTarget.contains(document.activeElement)) event.currentTarget.open = false; }}
-        onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget)) event.currentTarget.open = false; }}
-        onKeyDown={event => { if (event.key === "Escape") { event.currentTarget.open = false; event.currentTarget.querySelector("summary")?.focus(); } }}
+      <details
+        className="product-menu"
+        onPointerEnter={(event) => {
+          if (event.pointerType === "mouse") event.currentTarget.open = true;
+        }}
+        onPointerLeave={(event) => {
+          if (
+            event.pointerType === "mouse" &&
+            !event.currentTarget.contains(document.activeElement)
+          )
+            event.currentTarget.open = false;
+        }}
+        onBlur={(event) => {
+          if (!event.currentTarget.contains(event.relatedTarget))
+            event.currentTarget.open = false;
+        }}
+        onKeyDown={(event) => {
+          if (event.key === "Escape") {
+            event.currentTarget.open = false;
+            event.currentTarget.querySelector("summary")?.focus();
+          }
+        }}
       >
-        <summary onClick={event => { if (event.detail > 0 && matchMedia("(pointer: fine)").matches) { event.preventDefault(); event.currentTarget.parentElement!.setAttribute("open", ""); } }}>
+        <summary
+          onClick={(event) => {
+            if (event.detail > 0 && matchMedia("(pointer: fine)").matches) {
+              event.preventDefault();
+              event.currentTarget.parentElement!.setAttribute("open", "");
+            }
+          }}
+        >
           Product <span>+</span>
         </summary>
         <div>
@@ -341,7 +376,12 @@ function Header() {
           Menu <span>☰</span>
         </button>
       </header>
-      <dialog className="mobile-menu" aria-label="Site navigation" ref={dialog} data-lenis-prevent>
+      <dialog
+        className="mobile-menu"
+        aria-label="Site navigation"
+        ref={dialog}
+        data-lenis-prevent
+      >
         <div className="mobile-menu-top">
           <Mark />
           <span className="mono">NAVIGATION</span>

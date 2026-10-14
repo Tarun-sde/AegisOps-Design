@@ -1119,8 +1119,11 @@ h3 {
   pointer-events: none;
   z-index: 99;
 }
-.preloader {
+.heron-skip-loader .preloader {
   display: none;
+}
+.preloader {
+  display: flex;
   position: fixed;
   inset: 0;
   z-index: 100;
@@ -1475,7 +1478,7 @@ h3 {
   font-size: clamp(7px, 1.6cqw, 15px);
   box-shadow: 0 3px 0 var(--ink);
 }
-.history-panel > div:not(:first-child) {
+.history-panel > .history-event {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -1499,7 +1502,7 @@ h3 {
   font: 0.65em var(--font-mono);
   padding: 12px 9px;
 }
-.team-panel > div:nth-child(n + 3) {
+.team-panel > .team-member {
   display: flex;
   align-items: center;
   gap: 7px;
@@ -2880,4 +2883,83 @@ h3 {
   .feature-track {
     height: calc(500dvh - var(--header-height) - 8px);
   }
+}
+
+/* Scene layers stay in the drawing's coordinate system, including during inspection. */
+.history-spine,
+.team-spine {
+  position: absolute;
+  left: 13px;
+  top: 42px;
+  bottom: 14px;
+  width: 1px;
+  background: var(--rule);
+  pointer-events: none;
+}
+.history-event,
+.team-member {
+  position: relative;
+}
+.history-event time,
+.team-member .avatar {
+  background: #e9e9df;
+  position: relative;
+}
+.standard-links {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.why-art {
+  position: relative;
+}
+.why-art > .why-plan {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 991px) {
+  .model-workflow .phase-nav {
+    display: grid;
+    order: 1;
+  }
+  .model-workflow .workflow-body {
+    order: 2;
+  }
+  .model-workflow .phase-nav button {
+    padding: 12px 8px;
+    gap: 5px;
+    font-size: 11px;
+  }
+  .model-workflow .phase-nav button > :last-child {
+    display: none;
+  }
+  .model-workflow .scan-line {
+    display: block;
+  }
+  .model-workflow .geometry-fix,
+  .model-workflow .learned-standard {
+    display: block;
+    font-size: 8px;
+    padding: 8px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .model-workflow .phase-nav {
+    display: grid;
+  }
+  .model-workflow .scan-line {
+    display: none;
+  }
+}
+.standardized .room-label {
+  opacity: 0;
+}
+.model-workflow .workflow-alert {
+  left: auto;
+  right: 4%;
+  top: 14%;
 }

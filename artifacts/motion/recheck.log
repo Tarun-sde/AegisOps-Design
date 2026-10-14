@@ -1,0 +1,11 @@
+
+Running 2 tests using 2 workers
+
+(node:598393) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+(node:598391) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+  ✓  2 tests/experience.spec.ts:186:7 › site experience › footer lens follows the pointer and collapses on exit (7.1s)
+  ✓  1 tests/experience.spec.ts:106:7 › site experience › scroll phases reverse and route changes clean up pins (7.2s)
+
+  2 passed (9.9s)

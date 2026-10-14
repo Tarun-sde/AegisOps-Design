@@ -3,6 +3,8 @@ import { useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import { useSceneEntrances } from "./scene-entrances";
+import { featureScene } from "@/lib/motion-scenes";
 import { ArrowLink, useSiteScroll } from "./site-shell";
 import { PracticeStrip } from "./home-page";
 import { ProductPreview, featureNames } from "./product-preview";
@@ -65,21 +67,57 @@ function FeatureSequence() {
             },
           });
           trigger.current = tl.scrollTrigger!;
-          tl.to({}, { duration: 1 });
-          for (let i = 1; i < 5; i++)
-            tl.to(
-              panels[i - 1],
-              { autoAlpha: 0, yPercent: -12, duration: 0.18 },
-              i,
-            ).to(
-              panels[i],
-              { autoAlpha: 1, yPercent: 0, duration: 0.25 },
-              i + 0.05,
-            );
-          tl.to({}, { duration: 0.75 });
+          panels.forEach((panel, i) => {
+            tl.add(featureScene(panel, i).timeScale(1.35), i + 0.08);
+            if (i > 0) {
+              tl.to(
+                panels[i - 1],
+                { autoAlpha: 0, yPercent: -5, duration: 0.22 },
+                i,
+              )
+                .to(panel, { autoAlpha: 1, yPercent: 0, duration: 0.22 }, i)
+                .to(
+                  panels[i - 1].querySelector(".feature-copy"),
+                  { opacity: 0, duration: 0.1 },
+                  i,
+                )
+                .fromTo(
+                  panel.querySelector(".feature-copy"),
+                  { opacity: 0, clipPath: "inset(0 0 100% 0)" },
+                  { opacity: 1, clipPath: "inset(0 0 0% 0)", duration: 0.18 },
+                  i + 0.12,
+                );
+            }
+          });
+          tl.fromTo(
+            ".feature-progress",
+            { scaleX: 0 },
+            { scaleX: 1, duration: 5, ease: "none" },
+            0,
+          );
           return () => {
             trigger.current = null;
           };
+        },
+      );
+      media.add(
+        "(max-width: 991px) and (prefers-reduced-motion: no-preference)",
+        () => {
+          ref
+            .current!.querySelectorAll(".feature-panel")
+            .forEach((panel, i) => {
+              const scene = featureScene(panel, i);
+              ScrollTrigger.create({
+                trigger: panel.querySelector(".feature-visual"),
+                start: "top 85%",
+                end: "center 45%",
+                scrub: 0.4,
+                animation: scene,
+                onEnter: () => setActive(i),
+                onEnterBack: () => setActive(i),
+                invalidateOnRefresh: true,
+              });
+            });
         },
       );
       return () => media.revert();
@@ -92,10 +130,15 @@ function FeatureSequence() {
         trigger.current.start +
           ((i + 0.5) / 5) * (trigger.current.end - trigger.current.start),
       );
-    else
-      ref.current
-        ?.querySelectorAll(".feature-panel")
-        [i]?.scrollIntoView({ behavior: "smooth", block: "start" });
+    else {
+      setActive(i);
+      ref.current?.querySelectorAll(".feature-panel")[i]?.scrollIntoView({
+        behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
+          ? "instant"
+          : "smooth",
+        block: "start",
+      });
+    }
   };
   return (
     <div className="feature-track">
@@ -212,8 +255,10 @@ function FAQ() {
   );
 }
 export function DashboardPage() {
+  const root = useRef<HTMLElement>(null);
+  useSceneEntrances(root);
   return (
-    <main id="main" className="dashboard-page">
+    <main id="main" ref={root} className="dashboard-page">
       <section className="dashboard-hero">
         <div className="dashboard-hero-copy">
           <span className="eyebrow">YOUR VIEW OVER EVERYTHING HERON DOES</span>

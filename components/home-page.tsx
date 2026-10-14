@@ -3,6 +3,8 @@ import { useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import { useSceneEntrances } from "./scene-entrances";
+import { workflowScene } from "@/lib/motion-scenes";
 import { Hero } from "./hero";
 import { Elevation, FloorPlan, Mark, Pavilion } from "./artwork";
 import { ArrowLink, PageLink, useSiteScroll } from "./site-shell";
@@ -86,7 +88,9 @@ function ModelWorkflow() {
   const scrollTo = useSiteScroll();
   const ref = useRef<HTMLElement>(null),
     trigger = useRef<ScrollTrigger | null>(null),
-    lastPhase = useRef(0);
+    lastPhase = useRef(0),
+    mobileScene = useRef<gsap.core.Timeline | null>(null),
+    mobileTween = useRef<gsap.core.Tween | null>(null);
   const [active, setActive] = useState(0);
   useGSAP(
     () => {
@@ -116,7 +120,7 @@ function ModelWorkflow() {
             },
           });
           trigger.current = tl.scrollTrigger!;
-          tl.to(".scan-line", { y: 400, duration: 1, ease: "none" }, 0);
+          tl.add(workflowScene(ref.current!), 0);
           for (let i = 1; i < 4; i++) {
             tl.to(cards[i - 1], { autoAlpha: 0, y: -24, duration: 0.15 }, i).to(
               cards[i],
@@ -124,48 +128,18 @@ function ModelWorkflow() {
               i + 0.02,
             );
           }
-          tl.fromTo(
-            ".workflow-drawing .plan-issue-pins",
-            { opacity: 0 },
-            { opacity: 1, duration: 0.2 },
-            1,
-          )
-            .to(
-              ".workflow-drawing .plan-issue-pins",
-              { opacity: 0, duration: 0.2 },
-              2,
-            )
-            .to(
-              ".editable-door",
-              { attr: { d: "M423 191h54a54 54 0 0 1-54 54" }, duration: 0.65 },
-              2,
-            );
-          tl.fromTo(
-            ".workflow-alert",
-            { autoAlpha: 0 },
-            { autoAlpha: 1, duration: 0.15 },
-            1,
-          )
-            .to(".workflow-alert", { autoAlpha: 0, duration: 0.2 }, 2)
-            .fromTo(
-              ".geometry-fix",
-              { scaleX: 0.1, autoAlpha: 0 },
-              { scaleX: 1, autoAlpha: 1, duration: 0.65 },
-              2,
-            )
-            .to(".geometry-fix", { autoAlpha: 0.25, duration: 0.2 }, 3)
-            .fromTo(
-              ".learned-standard",
-              { autoAlpha: 0, y: 12 },
-              { autoAlpha: 1, y: 0, duration: 0.2 },
-              3,
-            )
-            .to({}, { duration: 0.8 });
           return () => {
             trigger.current = null;
           };
         },
       );
+      media.add("(max-width: 991px), (prefers-reduced-motion: reduce)", () => {
+        mobileScene.current = workflowScene(ref.current!).pause(0.8);
+        return () => {
+          mobileTween.current?.kill();
+          mobileScene.current = null;
+        };
+      });
       return () => media.revert();
     },
     { scope: ref },
@@ -176,10 +150,16 @@ function ModelWorkflow() {
         trigger.current.start +
           ((index + 0.5) / 4) * (trigger.current.end - trigger.current.start),
       );
-    } else {
-      ref.current
-        ?.querySelectorAll(".workflow-copy")
-        [index]?.scrollIntoView({ block: "center", behavior: "smooth" });
+    } else if (mobileScene.current) {
+      mobileTween.current?.kill();
+      setActive(index);
+      if (matchMedia("(prefers-reduced-motion: reduce)").matches)
+        mobileScene.current.time(index + 0.85);
+      else
+        mobileTween.current = mobileScene.current.tweenTo(index + 0.85, {
+          duration: 0.85,
+          ease: "power2.inOut",
+        });
     }
   };
   return (
@@ -201,7 +181,7 @@ function ModelWorkflow() {
         </div>
         <div className="workflow-body">
           <div className="workflow-drawing drafting-grid">
-            <FloorPlan />
+            <FloorPlan narrative />
             <div className="scan-line" />
             <div className="workflow-alert mono">
               <b>01 / CODE VIOLATION</b>
@@ -267,8 +247,39 @@ function ModelWorkflow() {
 }
 function Platforms() {
   const [tool, setTool] = useState("Revit");
+  const ref = useRef<HTMLElement>(null);
+  useGSAP(
+    () => {
+      const media = gsap.matchMedia();
+      media.add("(prefers-reduced-motion: no-preference)", () => {
+        const tl = gsap.timeline();
+        tl.fromTo(
+          ".platform-plan .plan-dimensions",
+          { scaleX: 0.7, opacity: 0.2, transformOrigin: "center" },
+          { scaleX: 1, opacity: 1, duration: 0.55 },
+        )
+          .fromTo(
+            ".platform-plan .plan-labels text",
+            { y: 7, opacity: 0 },
+            { y: 0, opacity: 1, stagger: 0.025, duration: 0.3 },
+            0.15,
+          )
+          .fromTo(
+            ".platform-plan .plan-alert",
+            { scaleY: 0, transformOrigin: "top" },
+            {
+              scaleY: tool === "Revit" || tool === "ArchiCAD" ? 1 : 0,
+              duration: 0.5,
+            },
+            0,
+          );
+      });
+      return () => media.revert();
+    },
+    { scope: ref, dependencies: [tool], revertOnUpdate: true },
+  );
   return (
-    <section id="platforms" className="platform-section">
+    <section ref={ref} id="platforms" className="platform-section">
       <div className="platform-main">
         <div
           className={`platform-plan tool-${tool.toLowerCase()} drafting-grid`}
@@ -276,7 +287,7 @@ function Platforms() {
           id="platform-panel"
           aria-labelledby={`tool-${tool}`}
         >
-          <FloorPlan highlight={tool === "Revit" || tool === "ArchiCAD"} />
+          <FloorPlan highlight />
           <span className="viewport-badge mono">
             {tool.toUpperCase()} /{" "}
             {tool === "Rhino"
@@ -375,8 +386,47 @@ function Platforms() {
 }
 function WhyHeron() {
   const [active, setActive] = useState(0);
+  const ref = useRef<HTMLElement>(null);
+  useGSAP(
+    () => {
+      const duration = matchMedia("(prefers-reduced-motion: reduce)").matches
+        ? 0
+        : 0.65;
+      gsap.to(".why-elevation", {
+        opacity: active === 0 ? 1 : 0,
+        duration,
+        overwrite: true,
+      });
+      gsap.to(".why-plan", {
+        opacity: active === 0 ? 0 : 1,
+        duration,
+        overwrite: true,
+      });
+      gsap.to(".why-plan .plan-alert, .why-plan .plan-issue-pins", {
+        opacity: active === 1 ? 0.75 : 0,
+        duration,
+        overwrite: true,
+      });
+      gsap.to(".why-plan .editable-door", {
+        attr: {
+          d:
+            active >= 2
+              ? "M423 191h54a54 54 0 0 1-54 54"
+              : "M423 191h-54a54 54 0 0 0 54 54",
+        },
+        duration,
+        overwrite: true,
+      });
+      gsap.to(".why-plan .plan-labels", {
+        opacity: active === 3 ? 1 : 0.4,
+        duration,
+        overwrite: true,
+      });
+    },
+    { scope: ref, dependencies: [active] },
+  );
   return (
-    <section className="why-section" id="why">
+    <section ref={ref} className="why-section" id="why">
       <div className="split-heading">
         <div>
           <span className="eyebrow">WHY US</span>
@@ -397,11 +447,8 @@ function WhyHeron() {
       </div>
       <div className="why-content">
         <div className="drafting-grid why-art">
-          {active === 0 ? (
-            <Elevation />
-          ) : (
-            <FloorPlan highlight={active === 1} />
-          )}
+          <Elevation className="why-elevation" />
+          <FloorPlan className="why-plan" highlight />
           <span className="why-art-label mono">{phases[active].tag}</span>
         </div>
         <div className="why-steps">
@@ -490,8 +537,10 @@ function UseCases() {
   );
 }
 export function HomePage() {
+  const root = useRef<HTMLElement>(null);
+  useSceneEntrances(root);
   return (
-    <main id="main">
+    <main id="main" ref={root}>
       <Hero />
       <section className="intro" id="about">
         <SectionLabel number="01">MORE DESIGN. LESS REPETITION.</SectionLabel>

@@ -1,0 +1,19 @@
+
+Running 10 tests using 2 workers
+
+(node:587215) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+(node:587216) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+  ✓   2 tests/motion.spec.ts:83:7 › dashboard feature 1 has reversible internal motion (11.4s)
+  ✓   1 tests/motion.spec.ts:39:5 › workflow continuously changes geometry, reverses, and releases its pin after resize (17.0s)
+  ✓   3 tests/motion.spec.ts:83:7 › dashboard feature 2 has reversible internal motion (13.4s)
+  ✓   4 tests/motion.spec.ts:83:7 › dashboard feature 3 has reversible internal motion (6.8s)
+  ✓   6 tests/motion.spec.ts:83:7 › dashboard feature 5 has reversible internal motion (10.0s)
+  ✓   5 tests/motion.spec.ts:83:7 › dashboard feature 4 has reversible internal motion (11.6s)
+  ✓   8 tests/motion.spec.ts:120:5 › touch workflow keeps its model interactive without a pin (21.4s)
+  ✓   9 tests/motion.spec.ts:137:5 › reduced motion shows dashboard content and allows instant model inspection (2.6s)
+  ✓   7 tests/motion.spec.ts:98:5 › ink changes at intermediate scroll positions and reverses (26.2s)
+  ✓  10 tests/motion.spec.ts:155:5 › navigation and browser history remove scene transforms and duplicate pins (5.8s)
+
+  10 passed (1.2m)

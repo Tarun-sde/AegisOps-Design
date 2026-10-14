@@ -87,7 +87,13 @@ export function ElevationDrawing({ shaded = true }: { shaded?: boolean }) {
           />
         </pattern>
       </defs>
-      <g stroke="#8e8e87" strokeWidth=".55" fill="none" opacity=".55">
+      <g
+        className="elevation-dimensions"
+        stroke="#8e8e87"
+        strokeWidth=".55"
+        fill="none"
+        opacity=".55"
+      >
         {[160, 250, 390, 520, 650, 745, 850].map((x) => (
           <path key={x} d={`M${x} 108V529`} />
         ))}
@@ -97,7 +103,12 @@ export function ElevationDrawing({ shaded = true }: { shaded?: boolean }) {
         <path d="M155 525H856M155 519v12m700-12v12M228 126H762M228 119v14m534-14v14" />
         <path d="m148 532 14-14m687 14 14-14M219 134l15-15m521 15 15-15" />
       </g>
-      <g fill="none" stroke="#282828" strokeWidth="1">
+      <g
+        className="elevation-structure"
+        fill="none"
+        stroke="#282828"
+        strokeWidth="1"
+      >
         <Tree x={174} y={480} scale={0.95} />
         <Tree x={817} y={480} scale={1.12} />
         <path d="M105 482H890" />
@@ -175,7 +186,12 @@ export function ElevationDrawing({ shaded = true }: { shaded?: boolean }) {
         />
         <path d="M302 480v-69m302 69v-66" strokeWidth=".5" />
       </g>
-      <g fontFamily="monospace" fontSize="7" fill="#77776f">
+      <g
+        className="elevation-annotations"
+        fontFamily="monospace"
+        fontSize="7"
+        fill="#77776f"
+      >
         <text x="460" y="538">
           SOUTH ELEVATION · 1:100
         </text>
@@ -214,18 +230,27 @@ export function Elevation({
 export function FloorPlan({
   className = "",
   highlight = false,
+  narrative = false,
+  standardized = false,
 }: {
   className?: string;
   highlight?: boolean;
+  narrative?: boolean;
+  standardized?: boolean;
 }) {
   return (
     <svg
-      className={`floor-plan ${className}`}
+      className={`floor-plan ${standardized ? "standardized" : ""} ${className}`}
       viewBox="0 0 700 640"
       role="img"
       aria-label="Architectural floor plan with meeting rooms, workspaces, door swings and dimension lines"
     >
-      <g fill="none" stroke="#999b91" strokeWidth=".6">
+      <g
+        className="plan-dimensions"
+        fill="none"
+        stroke="#999b91"
+        strokeWidth=".6"
+      >
         {Array.from({ length: 10 }, (_, i) => (
           <path
             key={i}
@@ -251,11 +276,22 @@ export function FloorPlan({
           opacity=".75"
         />
       )}
-      <g stroke="#363831" strokeWidth="9" fill="none" strokeLinecap="square">
+      <g
+        className="plan-walls"
+        stroke="#363831"
+        strokeWidth="9"
+        fill="none"
+        strokeLinecap="square"
+      >
         <path d="M132 163V82h89m49 0h127m47 0h137v195m0 56v210H447m-49 0H286m-56 0h-98V402m0-55V212" />
         <path d="M137 251h70m50 0h166m0-164v104m0 54v154m0 45v99M426 252h66m53 0h35M137 397h195m55 0h193M283 83v59m0 49v59M135 170h147M214 251v92m0 45v7M135 334h78M285 400v82m0 38v23" />
       </g>
-      <g fill="none" stroke="#92958b" strokeWidth="1">
+      <g
+        className="plan-furniture"
+        fill="none"
+        stroke="#92958b"
+        strokeWidth="1"
+      >
         <path d="M221 82v49a49 49 0 0 0 49-49M397 82v47a47 47 0 0 0 47-47M207 251v50a50 50 0 0 0 50-50M492 252v53a53 53 0 0 0 53-53M283 142h49a49 49 0 0 1-49 49M332 398v55a55 55 0 0 0 55-55M285 482h38a38 38 0 0 1-38 38M230 543v-56a56 56 0 0 1 56 56" />
         <path className="editable-door" d="M423 191h-54a54 54 0 0 0 54 54" />
         <rect x="321" y="110" width="62" height="94" rx="6" />
@@ -294,17 +330,23 @@ export function FloorPlan({
         <circle cx="499" cy="329" r="30" />
         <path d="M478 308l42 42m0-42-42 42" />
       </g>
-      <g fill="#73766c" fontFamily="monospace" fontSize="7" textAnchor="middle">
-        <text x="352" y="224">
+      <g
+        className="plan-labels"
+        fill="#73766c"
+        fontFamily="monospace"
+        fontSize="7"
+        textAnchor="middle"
+      >
+        <text className="room-label" x="352" y="224">
           MEETING / 01
         </text>
-        <text x="335" y="378">
+        <text className="room-label" x="335" y="378">
           OPEN WORKSPACE
         </text>
-        <text x="495" y="520">
+        <text className="room-label" x="495" y="520">
           STUDIO / 04
         </text>
-        <text x="214" y="536">
+        <text className="room-label" x="214" y="536">
           LOUNGE
         </text>
         <text x="350" y="53">
@@ -321,6 +363,105 @@ export function FloorPlan({
         </text>
         <text transform="translate(93 320) rotate(-90)">18 000</text>
       </g>
+      {standardized && (
+        <g
+          className="standard-room-labels"
+          fontFamily="monospace"
+          fontSize="8"
+          fill="#282828"
+          textAnchor="middle"
+        >
+          <text x="352" y="224">
+            MEETING / L02–01
+          </text>
+          <text x="335" y="378">
+            OFFICE / L02–02
+          </text>
+          <text x="495" y="520">
+            DESIGN / L02–04
+          </text>
+          <text x="214" y="536">
+            LOUNGE / L02–03
+          </text>
+        </g>
+      )}
+      {narrative && (
+        <g
+          className="model-narrative"
+          fill="none"
+          strokeWidth="1.4"
+          aria-hidden="true"
+        >
+          <rect
+            className="model-clearance"
+            x="369"
+            y="184"
+            width="54"
+            height="67"
+            fill="#fa3600"
+            fillOpacity=".12"
+            stroke="#fa3600"
+          />
+          <path
+            className="model-issue-frame"
+            pathLength="1"
+            stroke="#fa3600"
+            d="M363 178h66v79h-66Z"
+          />
+          <path
+            className="model-leader"
+            pathLength="1"
+            stroke="#fa3600"
+            d="M429 213h66v-51h64"
+          />
+          <path
+            className="model-before"
+            stroke="#fa3600"
+            strokeDasharray="3 3"
+            d="M423 191h-54a54 54 0 0 0 54 54"
+          />
+          <g className="model-reticle" stroke="#282828">
+            <path d="M-13-5v-8h8m10 0h8v8m0 10v8h-8m-10 0h-8v-8M-6 0H6M0-6V6" />
+          </g>
+          <path
+            className="model-standard-route"
+            pathLength="1"
+            stroke="#626b5f"
+            d="M477 224h74v140H335v110h166"
+          />
+          {[
+            [477, 224],
+            [335, 364],
+            [501, 474],
+          ].map(([x, y], i) => (
+            <g
+              className="model-standard-node"
+              key={x}
+              transform={`translate(${x} ${y})`}
+            >
+              <rect
+                x="-12"
+                y="-12"
+                width="24"
+                height="24"
+                fill="#e0e0da"
+                stroke="#626b5f"
+              />
+              <path d="m-6 0 4 4 8-9" stroke="#626b5f" />
+              <text
+                x="18"
+                y="3"
+                stroke="none"
+                fill="#626b5f"
+                fontSize="8"
+                fontFamily="monospace"
+              >
+                0{i + 1}
+              </text>
+            </g>
+          ))}
+        </g>
+      )}
       <g className="plan-issue-pins" fill="#fa3600">
         <rect x="123" y="179" width="18" height="18" />
         <rect x="413" y="213" width="18" height="18" />

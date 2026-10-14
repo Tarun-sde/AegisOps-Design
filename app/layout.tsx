@@ -15,7 +15,17 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `try{if(sessionStorage.getItem("heron-entered")==="1"||matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("heron-skip-loader")}catch{}`,
+          }}
+        />
+        <noscript>
+          <style>{`.preloader { display: none !important; }`}</style>
+        </noscript>
+      </head>
       <body>
         <SiteShell>{children}</SiteShell>
       </body>

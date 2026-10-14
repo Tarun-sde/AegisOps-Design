@@ -1,5 +1,7 @@
 "use client";
 import { useRef, useState, type PointerEvent } from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 import { ElevationDrawing } from "./artwork";
 import { ArrowLink } from "./site-shell";
 import {
@@ -11,6 +13,79 @@ import {
 } from "@/lib/geometry";
 
 export function Hero() {
+  const root = useRef<HTMLElement>(null);
+  useGSAP(
+    () => {
+      const media = gsap.matchMedia();
+      media.add("(prefers-reduced-motion: no-preference)", () => {
+        const tl = gsap.timeline({
+          paused: true,
+          defaults: { ease: "power2.out" },
+        });
+        const paths = root.current!.querySelectorAll<SVGPathElement>(
+          ".elevation-structure > path",
+        );
+        paths.forEach((path) => {
+          const length = path.getTotalLength();
+          tl.fromTo(
+            path,
+            {
+              strokeDasharray: length,
+              strokeDashoffset: length,
+              fillOpacity: 0,
+            },
+            { strokeDashoffset: 0, fillOpacity: 1, duration: 1.1 },
+            0.18,
+          );
+        });
+        tl.fromTo(
+          ".elevation-structure",
+          { clipPath: "inset(0 100% 0 0)" },
+          { clipPath: "inset(0 0% 0 0)", duration: 1.3 },
+          0,
+        )
+          .fromTo(
+            ".elevation-dimensions",
+            { scaleX: 0.15, transformOrigin: "50% 50%" },
+            { scaleX: 1, duration: 1.1 },
+            0.1,
+          )
+          .fromTo(
+            ".elevation-annotations text",
+            { opacity: 0, y: 6 },
+            { opacity: 1, y: 0, stagger: 0.07, duration: 0.45 },
+            0.6,
+          )
+          .fromTo(
+            ".hero-caption h1",
+            { clipPath: "inset(0 0 100% 0)", y: 20 },
+            { clipPath: "inset(0 0 0% 0)", y: 0, duration: 0.7 },
+            0.4,
+          )
+          .fromTo(
+            ".hero-metadata, .drawing-toolbar, .hero-description",
+            { opacity: 0 },
+            { opacity: 1, duration: 0.5, stagger: 0.1 },
+            0.7,
+          );
+        let visited = false;
+        try {
+          visited = sessionStorage.getItem("heron-entered") === "1";
+        } catch {
+          /* Storage is optional. */
+        }
+        const play = () => {
+          tl.play();
+        };
+        window.addEventListener("heron:entrance", play);
+        if (visited || document.documentElement.dataset.heronEntered === "true")
+          tl.play();
+        return () => window.removeEventListener("heron:entrance", play);
+      });
+      return () => media.revert();
+    },
+    { scope: root },
+  );
   const svg = useRef<SVGSVGElement>(null),
     selection = useRef<SVGRectElement>(null),
     gradient = useRef<SVGLinearGradientElement>(null),
@@ -76,7 +151,7 @@ export function Hero() {
     selection.current!.style.display = "none";
   };
   return (
-    <section className="hero" aria-labelledby="hero-title">
+    <section ref={root} className="hero" aria-labelledby="hero-title">
       <div className="hero-drawing technical-corners">
         <div className="hero-metadata mono">
           <span>

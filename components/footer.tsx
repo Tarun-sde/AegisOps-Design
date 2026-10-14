@@ -13,7 +13,16 @@ export function FinalCTA() {
     () => {
       const media = gsap.matchMedia();
       media.add("(prefers-reduced-motion: no-preference)", () => {
-        gsap.fromTo(
+        const tl = gsap.timeline({
+          scrollTrigger: {
+            trigger: ref.current!.querySelector(".ink-art"),
+            start: "top 65%",
+            end: "bottom 65%",
+            scrub: 0.6,
+            invalidateOnRefresh: true,
+          },
+        });
+        tl.fromTo(
           ".ink-edge",
           {
             attr: {
@@ -23,13 +32,12 @@ export function FinalCTA() {
           {
             attr: { d: "M-150 820 Q500 680 1150 820 L1150 -200 L-150 -200Z" },
             ease: "none",
-            scrollTrigger: {
-              trigger: ref.current,
-              start: "top 45%",
-              end: "bottom 55%",
-              scrub: 1,
-            },
           },
+        ).fromTo(
+          ".ink-displacement",
+          { attr: { scale: 65 } },
+          { attr: { scale: 115 }, ease: "none", duration: 0.5 },
+          0,
         );
       });
       return () => media.revert();
@@ -76,6 +84,7 @@ export function FinalCTA() {
               result="noise"
             />
             <feDisplacementMap
+              className="ink-displacement"
               in="SourceGraphic"
               in2="noise"
               scale="75"

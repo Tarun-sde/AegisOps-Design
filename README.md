@@ -36,6 +36,15 @@ node scripts/visual-review.mjs
 node scripts/capture-states.mjs
 ```
 
+The Phase 1.5 motion gallery is `artifacts/motion/index.html`. Recreate its recordings and comparisons with:
+
+```sh
+TEST_BASE_URL=http://localhost:3011 node scripts/capture-motion.mjs
+python scripts/compare-motion.py
+```
+
+The second script uses system FFmpeg and Pillow. The gallery labels time-normalized comparisons separately from controlled scroll-progress samples.
+
 See `IMPLEMENTATION_REPORT.md` for results, remaining visual differences, dependency advisories, and verification limits.
 
 ## Scope and assets

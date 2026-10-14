@@ -166,6 +166,7 @@ export function ProductPreview({
         <>
           <FloorPlan />
           <div className="history-panel">
+            <i className="history-spine" aria-hidden="true" />
             <div className="preview-dark-title">
               PROJECT HISTORY <span>LIVE</span>
             </div>
@@ -174,7 +175,7 @@ export function ProductPreview({
               ["10:36", "Corridor width flagged", "IBC 1020.2"],
               ["10:28", "Model check complete", "32 elements reviewed"],
             ].map(([time, title, detail]) => (
-              <div key={time}>
+              <div className="history-event" key={time}>
                 <time>{time}</time>
                 <div>
                   <b>{title}</b>
@@ -189,6 +190,7 @@ export function ProductPreview({
         <>
           <Elevation />
           <div className="team-panel">
+            <i className="team-spine" aria-hidden="true" />
             <div className="preview-dark-title">RESIDENTIAL BUILDING</div>
             <div className="team-project">TEAM ACTIVITY / PROJECT A–01</div>
             {[
@@ -197,7 +199,7 @@ export function ProductPreview({
               "Lucy Simmons",
               "Taylor Brooks",
             ].map((name, i) => (
-              <div key={name}>
+              <div className="team-member" key={name}>
                 <span className="avatar">
                   {name
                     .split(" ")
@@ -214,19 +216,34 @@ export function ProductPreview({
         </>
       ) : (
         <>
-          <FloorPlan />
+          <FloorPlan standardized />
+          <svg
+            className="standard-links"
+            viewBox="0 0 100 100"
+            preserveAspectRatio="none"
+            aria-hidden="true"
+          >
+            <path
+              className="standard-connection"
+              pathLength="1"
+              d="M35 24H60V72H80M60 48H27V65"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth=".2"
+            />
+          </svg>
           <div className="standards-panel">
             <div className="preview-dark-title">ROOM NAMING CONVENTION</div>
             <p>PROJECT STANDARDS / REV. 03</p>
-            <div>
+            <div className="standards-field">
               <span>TYPE</span>
               <b>OFFICE</b>
             </div>
-            <div>
+            <div className="standards-field">
               <span>DEPARTMENT</span>
               <b>DESIGN STUDIO</b>
             </div>
-            <div>
+            <div className="standards-field">
               <span>LEVEL</span>
               <b>02</b>
             </div>

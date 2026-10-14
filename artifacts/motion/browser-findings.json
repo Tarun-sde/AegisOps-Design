@@ -1,0 +1,3966 @@
+{
+  "errors": [],
+  "warnings": [],
+  "states": [
+    {
+      "name": "entrance-0",
+      "scrollY": 0,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-54a54 54 0 0 0 54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "369",
+          "scale": null,
+          "transform": "none",
+          "opacity": "0",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": 64.296875,
+        "width": 1424,
+        "height": 12907.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "entrance-25",
+      "scrollY": 0,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-54a54 54 0 0 0 54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "369",
+          "scale": null,
+          "transform": "none",
+          "opacity": "0",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": 64.296875,
+        "width": 1424,
+        "height": 12907.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "entrance-50",
+      "scrollY": 0,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-54a54 54 0 0 0 54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "369",
+          "scale": null,
+          "transform": "none",
+          "opacity": "0",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": 64.296875,
+        "width": 1424,
+        "height": 12907.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "entrance-75",
+      "scrollY": 0,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-54a54 54 0 0 0 54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "369",
+          "scale": null,
+          "transform": "none",
+          "opacity": "0",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": 64.296875,
+        "width": 1424,
+        "height": 12907.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "entrance-100",
+      "scrollY": 0,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-54a54 54 0 0 0 54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "369",
+          "scale": null,
+          "transform": "none",
+          "opacity": "0",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": 64.296875,
+        "width": 1424,
+        "height": 12907.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "inspection-0",
+      "scrollY": 0,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-54a54 54 0 0 0 54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "369",
+          "scale": null,
+          "transform": "none",
+          "opacity": "0",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": 64.296875,
+        "width": 1424,
+        "height": 12907.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "inspection-25",
+      "scrollY": 0,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-54a54 54 0 0 0 54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "369",
+          "scale": null,
+          "transform": "none",
+          "opacity": "0",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": 64.296875,
+        "width": 1424,
+        "height": 12907.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "inspection-50",
+      "scrollY": 0,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-54a54 54 0 0 0 54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "369",
+          "scale": null,
+          "transform": "none",
+          "opacity": "0",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": 64.296875,
+        "width": 1424,
+        "height": 12907.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "inspection-75",
+      "scrollY": 0,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-54a54 54 0 0 0 54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "369",
+          "scale": null,
+          "transform": "none",
+          "opacity": "0",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": 64.296875,
+        "width": 1424,
+        "height": 12907.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "inspection-100",
+      "scrollY": 0,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-54a54 54 0 0 0 54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "369",
+          "scale": null,
+          "transform": "none",
+          "opacity": "0",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": 64.296875,
+        "width": 1424,
+        "height": 12907.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "workflow-0",
+      "scrollY": 2343,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-54a54 54 0 0 0 54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "369",
+          "scale": null,
+          "transform": "none",
+          "opacity": "0",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 460.8644714355469,
+        "y": 398.1528625488281,
+        "width": 52.748870849609375,
+        "height": 52.748870849609375,
+        "transform": "none",
+        "path": "M423 191h-54a54 54 0 0 0 54 54",
+        "attributeX": null
+      }
+    },
+    {
+      "name": "workflow-25",
+      "scrollY": 3693,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-54a54 54 0 0 0 54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "369",
+          "scale": null,
+          "transform": "none",
+          "opacity": "0",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 460.8737487792969,
+        "y": 398.2461242675781,
+        "width": 52.775238037109375,
+        "height": 52.775238037109375,
+        "transform": "none",
+        "path": "M423 191h-54a54 54 0 0 0 54 54",
+        "attributeX": null
+      }
+    },
+    {
+      "name": "workflow-50",
+      "scrollY": 5043,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-54a54 54 0 0 0 54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "369",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 460.8737487792969,
+        "y": 398.2461242675781,
+        "width": 52.775238037109375,
+        "height": 52.775238037109375,
+        "transform": "none",
+        "path": "M423 191h-54a54 54 0 0 0 54 54",
+        "attributeX": null
+      }
+    },
+    {
+      "name": "workflow-75",
+      "scrollY": 6393,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h54a54 54 0 0 1-54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "423",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 513.6489868164062,
+        "y": 398.2461242675781,
+        "width": 52.7752685546875,
+        "height": 52.775238037109375,
+        "transform": "none",
+        "path": "M423 191h54a54 54 0 0 1-54 54",
+        "attributeX": null
+      }
+    },
+    {
+      "name": "workflow-100",
+      "scrollY": 7743,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h54a54 54 0 0 1-54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "423",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 513.6133422851562,
+        "y": 398.1528625488281,
+        "width": 52.7489013671875,
+        "height": 52.748870849609375,
+        "transform": "none",
+        "path": "M423 191h54a54 54 0 0 1-54 54",
+        "attributeX": null
+      }
+    },
+    {
+      "name": "workflow-detail-12",
+      "scrollY": 2991,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-54a54 54 0 0 0 54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "369",
+          "scale": null,
+          "transform": "none",
+          "opacity": "0",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 460.8737487792969,
+        "y": 391.4048767089844,
+        "width": 52.775238037109375,
+        "height": 65.48040771484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": "369"
+      }
+    },
+    {
+      "name": "workflow-detail-38",
+      "scrollY": 4395,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-54a54 54 0 0 0 54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "369",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 460.8737487792969,
+        "y": 391.4048767089844,
+        "width": 52.775238037109375,
+        "height": 65.48040771484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": "369"
+      }
+    },
+    {
+      "name": "workflow-detail-58",
+      "scrollY": 5475,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-0.8308a54 54 0 0 0.4923,0.8308 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "395.584615",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 486.8554382324219,
+        "y": 391.4048767089844,
+        "width": 52.775238037109375,
+        "height": 65.48040771484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": "395.584615"
+      }
+    },
+    {
+      "name": "workflow-detail-68",
+      "scrollY": 6015,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h54a54 54 0 0 1-54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "423",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 513.6489868164062,
+        "y": 391.4048767089844,
+        "width": 52.7752685546875,
+        "height": 65.48040771484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": "423"
+      }
+    },
+    {
+      "name": "workflow-detail-88",
+      "scrollY": 7095,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h54a54 54 0 0 1-54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "423",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 513.6489868164062,
+        "y": 391.4048767089844,
+        "width": 52.7752685546875,
+        "height": 65.48040771484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": "423"
+      }
+    },
+    {
+      "name": "lens-0",
+      "scrollY": 12080,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h54a54 54 0 0 1-54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "423",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "115",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 820 Q500 680 1150 820 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": -12015.703125,
+        "width": 1424,
+        "height": 12907.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "lens-25",
+      "scrollY": 12080,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h54a54 54 0 0 1-54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "423",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "115",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 820 Q500 680 1150 820 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": -12015.703125,
+        "width": 1424,
+        "height": 12907.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "lens-50",
+      "scrollY": 12080,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h54a54 54 0 0 1-54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "423",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "115",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 820 Q500 680 1150 820 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": -12015.703125,
+        "width": 1424,
+        "height": 12907.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "lens-75",
+      "scrollY": 12080,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h54a54 54 0 0 1-54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "423",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "115",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 820 Q500 680 1150 820 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": -12015.703125,
+        "width": 1424,
+        "height": 12907.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "lens-100",
+      "scrollY": 12080,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h54a54 54 0 0 1-54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "423",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "115",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 820 Q500 680 1150 820 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": -12015.703125,
+        "width": 1424,
+        "height": 12907.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-1-0",
+      "scrollY": 888,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-1-25",
+      "scrollY": 1021,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-1-50",
+      "scrollY": 1154,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-1-75",
+      "scrollY": 1287,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-1-100",
+      "scrollY": 1420,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-2-0",
+      "scrollY": 1608,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 398.58868408203125,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-2-25",
+      "scrollY": 1741,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-2-50",
+      "scrollY": 1874,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-2-75",
+      "scrollY": 2007,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-2-100",
+      "scrollY": 2140,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-3-0",
+      "scrollY": 2328,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 398.58868408203125,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-3-25",
+      "scrollY": 2461,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0.1955, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-3-50",
+      "scrollY": 2594,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0.7178, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-3-75",
+      "scrollY": 2727,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0.9918, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-3-100",
+      "scrollY": 2860,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-4-0",
+      "scrollY": 3048,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 398.58868408203125,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-4-25",
+      "scrollY": 3181,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0.1955, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-4-50",
+      "scrollY": 3314,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0.7178, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-4-75",
+      "scrollY": 3447,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0.9918, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-4-100",
+      "scrollY": 3580,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-5-0",
+      "scrollY": 3768,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 398.58868408203125,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-5-25",
+      "scrollY": 3901,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-5-50",
+      "scrollY": 4034,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-5-75",
+      "scrollY": 4167,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "feature-5-100",
+      "scrollY": 4300,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 668.15625,
+        "y": 371.671875,
+        "width": 699.75,
+        "height": 498.3125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "navigation-0",
+      "scrollY": 0,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h-54a54 54 0 0 0 54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "369",
+          "scale": null,
+          "transform": "none",
+          "opacity": "0",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": 64.296875,
+        "width": 1424,
+        "height": 12907.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "navigation-25",
+      "scrollY": 0,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": 64.296875,
+        "width": 1424,
+        "height": 8225.953125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "navigation-50",
+      "scrollY": 0,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": 64.296875,
+        "width": 1424,
+        "height": 8225.953125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "navigation-75",
+      "scrollY": 0,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": 64.296875,
+        "width": 1424,
+        "height": 8225.953125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "navigation-100",
+      "scrollY": 0,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": 64.296875,
+        "width": 1424,
+        "height": 8225.953125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "ink-0",
+      "scrollY": 11287,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h54a54 54 0 0 1-54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "423",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 390,
+        "y": 584.609375,
+        "width": 660,
+        "height": 350,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "ink-25",
+      "scrollY": 11374,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h54a54 54 0 0 1-54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "423",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "77.42855",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 68.571 Q500 93.8854 1150 68.571 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 390,
+        "y": 497.609375,
+        "width": 660,
+        "height": 350,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "ink-50",
+      "scrollY": 11462,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h54a54 54 0 0 1-54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "423",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "90",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 320 Q500 290 1150 320 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 390,
+        "y": 409.609375,
+        "width": 660,
+        "height": 350,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "ink-75",
+      "scrollY": 11549,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h54a54 54 0 0 1-54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "423",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "102.42855",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 568.571 Q500 483.8854 1150 568.571 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 390,
+        "y": 322.609375,
+        "width": 660,
+        "height": 350,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "ink-100",
+      "scrollY": 11637,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h54a54 54 0 0 1-54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "423",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "115",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 820 Q500 680 1150 820 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 390,
+        "y": 234.609375,
+        "width": 660,
+        "height": 350,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "home-1440x700",
+      "scrollY": 4663,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h12.4615a54 54 0 0 0.6154,-12.4615 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "402.230769",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": -4598.703125,
+        "width": 1424,
+        "height": 11307.484375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "dashboard-1440x700",
+      "scrollY": 2310,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": -2245.703125,
+        "width": 1424,
+        "height": 7025.953125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "home-1920x1080",
+      "scrollY": 6673,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h12.4615a54 54 0 0 0.6154,-12.4615 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "402.230769",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": -6590,
+        "width": 1904,
+        "height": 15270.734375,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "dashboard-1920x1080",
+      "scrollY": 3583,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 8,
+        "y": -3500,
+        "width": 1904,
+        "height": 9573.8125,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "home-390x844",
+      "scrollY": 2454,
+      "layers": [
+        {
+          "class": "editable-door",
+          "d": "M423 191h54a54 54 0 0 1-54 54",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-clearance",
+          "d": null,
+          "x": "423",
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "model-standard-route",
+          "d": "M477 224h74v140H335v110h166",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 7,
+        "y": -2397,
+        "width": 376,
+        "height": 10311.65625,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    },
+    {
+      "name": "dashboard-390x844",
+      "scrollY": 2344,
+      "layers": [
+        {
+          "class": "history-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "team-spine",
+          "d": null,
+          "x": null,
+          "scale": null,
+          "transform": "matrix(1, 0, 0, 0, 0, 0)",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "standard-connection",
+          "d": "M35 24H60V72H80M60 48H27V65",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "1px"
+        },
+        {
+          "class": "ink-displacement",
+          "d": null,
+          "x": null,
+          "scale": "65",
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        },
+        {
+          "class": "ink-edge",
+          "d": "M-150 -180 Q500 -100 1150 -180 L1150 -200 L-150 -200Z",
+          "x": null,
+          "scale": null,
+          "transform": "none",
+          "opacity": "1",
+          "dashOffset": "0px"
+        }
+      ],
+      "geometry": {
+        "x": 7,
+        "y": -2287,
+        "width": 376,
+        "height": 7206.5625,
+        "transform": "none",
+        "path": null,
+        "attributeX": null
+      }
+    }
+  ]
+}

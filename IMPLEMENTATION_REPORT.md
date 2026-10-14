@@ -1,6 +1,57 @@
 # Heron AI frontend implementation report
 
-## Result
+## Phase 1.5 — motion overhaul (current implementation)
+
+The page composition, typography, colors, navigation, original artwork and existing approval/inspection controls remain intact. This pass changes the scene choreography and adds mobile model controls. The Phase 1 notes below remain as historical implementation details; this section supersedes their motion and validation descriptions.
+
+### What changed
+
+- **Entrances:** the preloader now hands off to the hero drawing. Structural strokes, material fill, clipped geometry, dimensions, annotations and the headline enter in a coordinated sequence. Drawing coordinates settle at their original positions before inspection. Dashboard terrain, activity rows and pending requests enter as separate layers. Session revisits and route changes start their entrances without repeating the preloader; reduced motion skips them. The initial stylesheet shows the curtain before hydration; a small head script skips it for returning sessions and a noscript style preserves a readable JavaScript-disabled page. This addresses the initial flash found by reviewing the first encoded video frame, which a post-load DOM assertion alone did not catch.
+- **Persistent workflow:** one floor plan reveals its furniture under a scan, detects a specific door-clearance problem, draws an issue frame and leader, moves an editing reticle, transforms the actual door path and clearance region, retains a faint before-state during the edit, and traces the resulting standard through three model locations. All stages share one reversible timeline. The alert was repositioned after frame review so it does not cover the door.
+- **Five dashboard scenes:** nested project windows fan into place, metrics and activities develop, a request enters over its highlighted model area, history grows along a spine while the door changes, team members and their statuses arrive in sequence, and firm standards replace room labels on the drawing. These internal timelines are nested in the existing parent ScrollTrigger. Incoming and outgoing headings are staggered independently so their text does not overlap during the scene change. Approval decisions remain explicit user actions; scrolling does not approve anything.
+- **Supporting scenes:** introduction typography uses a scroll-controlled clip; problem diagrams have distinct drawing, separation, targeting and time motions; platform tabs coordinate dimensions, labels and highlights with the existing viewport transform; Why Heron retains its drawing layers and transitions them while correcting the same door; product previews reveal their own UI layers; the pavilion progressively reveals.
+- **Ink:** the aligned sketch and render still use the same geometry. Scroll now drives both the mask path and displacement strength. The trigger range follows the illustration itself so the ragged intermediate edge is visible on screen.
+- **Responsive behavior:** desktop keeps the existing reserved scroll lengths. On mobile, four touch/keyboard controls scrub the same workflow model through short transitions above the stacked copy. Dashboard internals use short, unpinned scroll ranges and the feature navigation follows the visible scene. Reduced motion exposes static dashboard content and allows instantaneous workflow phase selection.
+- **Lifecycle and performance:** no new dependencies, animation loops or React frame updates. Scenes run on the existing GSAP/Lenis clock; scroll scanning uses a transform. Rich secondary previews initialize near the viewport and are captured in a context that reverts on navigation/media changes. Existing cursor sleep behavior, footer lens and Next.js curtain/history remain in place.
+
+### Evidence and fidelity limits
+
+See [MOTION_GAP_AUDIT.md](MOTION_GAP_AUDIT.md) for the pre-implementation section audit. All six supplied videos were sampled; the workflow and dashboard recordings were also inspected at half-second intervals and in consecutive-frame strips around their entrance transitions. Both older implementation videos were reviewed before editing.
+
+The evidence is narrower than the filenames suggest: recording 03 shows the preloader and an initial plan, without a complete four-stage workflow; recording 05 shows One View without all five feature scenes. Consequently, missing-stage choreography reconstructs the requested behavior and the [developer's persistent-model explanation](https://tympanus.net/codrops/2026/10/12/heron-ai/), rather than claiming an exact measured reproduction. Supporting section timings are likewise reconstructed where the recordings do not cover them. The existing dark preloader/footer and vector artwork remain intentional visual differences.
+
+Final capture assets live in `artifacts/motion/`; open [the motion gallery](artifacts/motion/index.html). The final production capture produced 66 frames and seven raw local recordings, with no page errors, console warnings or observed horizontal overflow. The gallery contains 13 filmstrips and six side-by-side videos. Raw local recordings retain their actual capture timing. Side-by-side reference/local WebM clips normalize each clip to twelve seconds, and comparison filmstrips explicitly label normalized **video time**, not equivalent scroll progress. Separate local workflow, ink and five-feature filmstrips show controlled 0/25/50/75/100% progression. Boundary frames intentionally retain the outgoing phase before the next phase develops. These comparisons show internal geometry and layer motion; passing interaction tests alone is not treated as evidence of motion fidelity.
+
+Chromium review includes 1440×900, 1440×700, 1920×1080, and touch-emulated 390×844. Safari, Firefox, physical mobile hardware, screen readers, heap profiling and sustained frame-rate measurements remain untested. No motion-perfect or guaranteed 60fps claim is made.
+
+### Phase 1.5 validation
+
+| Check | Result | Evidence |
+| --- | --- | --- |
+| `npm run typecheck` | Passed | `artifacts/motion/typecheck.log` |
+| `npm run lint` | Passed | `artifacts/motion/lint.log` |
+| `npm run build` | Passed; both routes statically rendered | `artifacts/motion/build.log` |
+| `TEST_BASE_URL=http://localhost:3011 npm test` | **29 passed in 43.1 seconds** | `artifacts/motion/playwright-production.log` |
+
+All 18 existing tests remain enabled and unchanged. Eleven additional tests verify intermediate SVG geometry, forward/reverse model editing, actual internal movement in each of the five dashboard scenes, five distinct ink-mask states and reversal, resize and pin release, mobile model controls, reduced-motion behavior, cleanup through route navigation and browser history, and first-load curtain visibility before hydration with a script-free fallback. Transform reversal comparisons allow 0.02 units of interpolation error; one initial exact-string assertion differed by 0.0009 pixels and was corrected rather than changing the animation.
+
+The first development run overlapped edits/hot reloads and had two interaction failures; both passed in isolated production checks and in the final full run. Final browser capture and visual review are documented in the motion gallery. Reviewed frames include the staged hero entrance, exposed door issue, intermediate and completed correction, standards propagation, each dashboard feature at five progress points, ink edge, footer lens, and both routes at short, wide and mobile sizes. `artifacts/motion/browser-findings.json` also records path data, SVG attributes and computed transforms at each captured state.
+
+### Reproduce the motion evidence
+
+```sh
+npm run build
+npm run start -- --port 3011
+TEST_BASE_URL=http://localhost:3011 npm test
+TEST_BASE_URL=http://localhost:3011 node scripts/capture-motion.mjs
+python scripts/compare-motion.py
+```
+
+The comparison script uses system FFmpeg and Pillow; it adds no application dependency. It does not alter any supplied reference files.
+
+---
+
+## Phase 1 result
 
 Implemented the two requested public pages in this repository using Next.js App Router, React, strict TypeScript, Tailwind CSS, custom CSS tokens, GSAP, ScrollTrigger, `@gsap/react`, Lenis, SVG, and Canvas 2D. Both routes are statically prerendered by the production build.
 

@@ -1,0 +1,42 @@
+
+> heron-architectural-showcase@1.0.0 test
+> playwright test
+
+
+Running 29 tests using 2 workers
+
+(node:675439) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+(node:675438) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node-22 --trace-warnings ...` to show where the warning was created)
+  ✓   2 tests/experience.spec.ts:4:5 › selection math handles reversed drags, edge overlap and letterboxing (19ms)
+  ✓   1 tests/experience.spec.ts:44:11 › site experience › / fits 1440×900 without runtime errors (1.7s)
+  ✓   3 tests/experience.spec.ts:44:11 › site experience › /heron-dashboard fits 1440×900 without runtime errors (1.7s)
+  ✓   4 tests/experience.spec.ts:44:11 › site experience › / fits 1920×1080 without runtime errors (1.3s)
+  ✓   5 tests/experience.spec.ts:44:11 › site experience › /heron-dashboard fits 1920×1080 without runtime errors (1.3s)
+  ✓   6 tests/experience.spec.ts:44:11 › site experience › / fits 390×844 without runtime errors (943ms)
+  ✓   7 tests/experience.spec.ts:44:11 › site experience › /heron-dashboard fits 390×844 without runtime errors (923ms)
+  ✓   8 tests/experience.spec.ts:44:11 › site experience › / fits 1440×700 without runtime errors (845ms)
+  ✓   9 tests/experience.spec.ts:44:11 › site experience › /heron-dashboard fits 1440×700 without runtime errors (908ms)
+  ✓  11 tests/experience.spec.ts:91:7 › site experience › platform tabs support keyboard and persona accordion toggles (1.7s)
+  ✓  10 tests/experience.spec.ts:60:7 › site experience › hero drag, keyboard inspection and clear work (2.3s)
+  ✓  13 tests/experience.spec.ts:152:7 › site experience › dashboard feature navigation and approval decisions (3.3s)
+  ✓  14 tests/experience.spec.ts:174:7 › site experience › FAQ supports keyboard open and close (1.2s)
+  ✓  12 tests/experience.spec.ts:106:7 › site experience › scroll phases reverse and route changes clean up pins (5.2s)
+  ✓  16 tests/experience.spec.ts:206:7 › site experience › reduced motion removes pins and exposes all features (994ms)
+  ✓  15 tests/experience.spec.ts:186:7 › site experience › footer lens follows the pointer and collapses on exit (3.1s)
+  ✓  17 tests/experience.spec.ts:221:5 › touch navigation, inspection and modal escape (3.0s)
+  ✓  18 tests/experience.spec.ts:250:5 › preloader finishes and does not repeat in the session (4.7s)
+  ✓  19 tests/motion.spec.ts:39:5 › workflow continuously changes geometry, reverses, and releases its pin after resize (7.7s)
+  ✓  20 tests/motion.spec.ts:83:7 › dashboard feature 1 has reversible internal motion (4.7s)
+  ✓  21 tests/motion.spec.ts:83:7 › dashboard feature 2 has reversible internal motion (4.7s)
+  ✓  22 tests/motion.spec.ts:83:7 › dashboard feature 3 has reversible internal motion (4.7s)
+  ✓  23 tests/motion.spec.ts:83:7 › dashboard feature 4 has reversible internal motion (4.2s)
+  ✓  24 tests/motion.spec.ts:83:7 › dashboard feature 5 has reversible internal motion (4.2s)
+  ✓  26 tests/motion.spec.ts:129:5 › touch workflow keeps its model interactive without a pin (2.3s)
+  ✓  27 tests/motion.spec.ts:146:5 › reduced motion shows dashboard content and allows instant model inspection (1.1s)
+  ✓  25 tests/motion.spec.ts:107:5 › ink changes at intermediate scroll positions and reverses (6.2s)
+  ✓  29 tests/motion.spec.ts:186:5 › first-load curtain is visible before hydration, without blocking a script-free page (1.6s)
+  ✓  28 tests/motion.spec.ts:164:5 › navigation and browser history remove scene transforms and duplicate pins (4.8s)
+
+  29 passed (43.1s)
